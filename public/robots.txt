@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://youtubestore.vn/sitemap.xml
+Sitemap: https://shopgroup.vn/sitemap.xml

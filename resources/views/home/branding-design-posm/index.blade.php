@@ -68,7 +68,7 @@
                         <ul class="support-list">
                             <li>
                                 <svg class="icon"><use xlink:href="#icon-plus"></use></svg>
-                                <div class="text" data-cms="{{app()->getLocale()}}-brand-index-43">YoutubeStore will raise your business to be even more professional with a stood out branding.</div>
+                                <div class="text" data-cms="{{app()->getLocale()}}-brand-index-43">ShopGroup will raise your business to be even more professional with a stood out branding.</div>
                             </li>
                             <li>
                                 <svg class="icon"><use xlink:href="#icon-plus"></use></svg>
@@ -125,7 +125,7 @@
                 </div>
             </div>
             <div class="grid-head">
-                <div class="sapo" data-cms="{{app()->getLocale()}}-brand-index-77">We are proud of the quality and the accomplishments of our designers. We believe that the logo design by YoutubeStore will aid your first step to win the competitive market places</div>
+                <div class="sapo" data-cms="{{app()->getLocale()}}-brand-index-77">We are proud of the quality and the accomplishments of our designers. We believe that the logo design by ShopGroup will aid your first step to win the competitive market places</div>
             </div>
         </div>
     </div>

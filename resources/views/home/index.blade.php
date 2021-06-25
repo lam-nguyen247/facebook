@@ -1,7 +1,7 @@
 @extends('home.layouts.app')
 
-@section('title', 'Youtubestore.vn Đơn Vị Mua Bán Chuyển Nhượng Kênh Youtube Uy Tín')
-@section('description', 'Bạn đang có nhu cầu mua bán kênh Youtube chất lượng? Youtubestore.vn - đơn vị mua bán chuyển nhượng kênh youtube uy tín tại Việt Nam sẽ giúp bạn làm điều đó.')
+@section('title', 'ShopGroup.vn Đơn Vị Mua Bán Chuyển Nhượng Kênh Youtube Uy Tín')
+@section('description', 'Bạn đang có nhu cầu mua bán kênh Youtube chất lượng? ShopGroup.vn - đơn vị mua bán chuyển nhượng kênh youtube uy tín tại Việt Nam sẽ giúp bạn làm điều đó.')
 @section('css')
 
 <style>
@@ -109,11 +109,11 @@
         .then((value) => {
         switch (value) {
             case "defeat":
-            window.location.href = "https://youtubestore.vn/chuyen-nhuong-lai-kenh-youtube"
+            window.location.href = "https://shopgroup.vn/chuyen-nhuong-lai-kenh-youtube"
             break;
 
             case "catch":
-                window.location.href = "https://youtubestore.vn/mua-kenh-youtube"
+                window.location.href = "https://shopgroup.vn/mua-kenh-youtube"
             break;
         }
     });

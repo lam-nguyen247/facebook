@@ -224,14 +224,14 @@
                 <div class="col-8 col-md-3 col-lg-3">
                     <div class="footer-content">
                         <h3 class="title">@lang('Follow us')</h3>
-                        <div class="fb-page" data-href="https://www.facebook.com/Youtubestore.vn" data-tabs="timeline" data-width="" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Youtubestore.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Youtubestore.vn">Youtubestore.vn</a></blockquote></div>
+                        <div class="fb-page" data-href="https://www.facebook.com/ShopGroup.vn" data-tabs="timeline" data-width="" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ShopGroup.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ShopGroup.vn">ShopGroup.vn</a></blockquote></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="copyright">
-        <p>@lang('Design by') YoutubeStore</p>
+        <p>@lang('Design by') ShopGroup</p>
     </div>
 </footer>
 <a id="scrolltop" class="scroll-top" onclick="document.documentElement.scrollIntoView({ behavior: 'smooth' });">
@@ -263,13 +263,13 @@
     <div class="messenger">
       <div class="ring">
             <div class="">
-            <a href="https://m.me/Youtubestore.vn" class="btn-img" target="_blank">
+            <a href="https://m.me/ShopGroup.vn" class="btn-img" target="_blank">
                 <img src="/images/home/social-media.png" width="38">
             </a>
         </div>
       </div>
       <div class="bar">
-        <a href="https://m.me/Youtubestore.vn" target="_blank">
+        <a href="https://m.me/ShopGroup.vn" target="_blank">
           <span class="text-hotline">Facebook</span>
         </a>
       </div>
