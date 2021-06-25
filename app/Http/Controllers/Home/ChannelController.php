@@ -17,7 +17,7 @@ class ChannelController extends Controller
 		$client = $this->getGoogleClient();
 		$service = new Google_Service_Sheets($client);
 		$spreadsheetId = '1VT8A6swg0XoKOHtEHpv07zHKIibd7SyzZ5MPB9XmAMs';
-		$range = 'Trang tính1!A1:E';
+		$range = 'Trang tính1!A2:G';
 
 		// get values
 		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
