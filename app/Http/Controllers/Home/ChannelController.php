@@ -30,7 +30,7 @@ class ChannelController extends Controller
                 continue;
             }
             $item[0] = (int)str_replace('.', '', $item[0]);
-            $item[3] = (int)str_replace('.', '', $item[3]);
+            $item[5] = (int)str_replace('.', '', $item[5]);
             if(!empty($request->sub_f)){
                 if($item[0] < $request->sub_f){
                     continue;
@@ -42,12 +42,12 @@ class ChannelController extends Controller
                 }
             }
             if(!empty($request->price_f)){
-                if($item[3] < $request->price_f){
+                if($item[5] < $request->price_f){
                     continue;
                 }
             }
             if(!empty($request->price_t)){
-                if($item[3] > $request->price_t){
+                if($item[5] > $request->price_t){
                     continue;
                 }
             }
