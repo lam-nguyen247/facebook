@@ -110,6 +110,9 @@
                                     </td>
                                     <td>
                                         {{$values[$i][4]}}
+                                        @php
+                                         dd($values[$i][5]);   
+                                        @endphp
                                     </td>
                                     <td>{{number_format($values[$i][5], 0, ',', '.')}} <br/>
                                         @if (!isset($values[$i][6]))
