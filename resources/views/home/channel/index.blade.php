@@ -94,7 +94,7 @@
                             @for ($i = 1; $i < count($values); $i++)
                   
                                 <tr>
-                                    <td>{{$values[$i][0]}}</td>
+                                    <td>{{number_format($values[$i][0], 0, ',', '.')}}</td>
 
                                     <td>
                                         {{$values[$i][1]}}                                  
