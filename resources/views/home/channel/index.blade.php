@@ -97,7 +97,7 @@
                                     <td>{{number_format($values[$i][0], 0, ',', '.')}}</td>
 
                                     <td>
-                                        <td>{{$values[$i][1]}}</td>                                       
+                                        {{$values[$i][1]}}                                  
                                     </td>
                                     <td>
                                         <input value="{{$values[$i][2]}}" type="text" style="display: none;" id="link_{{$i}}"/>
