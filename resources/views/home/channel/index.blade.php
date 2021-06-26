@@ -92,8 +92,12 @@
 
                         <tbody>
                             @for ($i = 1; $i < count($values); $i++)
+                            @php
+                                dd($values[$i]);
+                            @endphp
                                 <tr>
                                     <td>{{number_format($values[$i][0], 0, ',', '.')}}</td>
+
                                     <td>
                                         <td style="color: {{isset($values[$i][6])?'red':'black'}}">{{$values[$i][1]}}</td>                                       
                                     </td>
