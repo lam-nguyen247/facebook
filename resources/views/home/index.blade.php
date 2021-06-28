@@ -60,7 +60,7 @@
                         </div>
                         @else
                         <div class="video-container">
-                           <img src="/images/banner.jpg"/>
+                           <img style="width:100%" src="/images/banner.jpg"/>
                         </div>
                        @endif
                     </div>
