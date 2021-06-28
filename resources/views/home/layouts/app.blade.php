@@ -159,7 +159,7 @@
             <div class="col-6">
                 <div class="header__logo-box d-flex align-items-center">
                     <a href="/" title="logo">
-                        <img class="img-fluid" @src="/images/home/logo-white.png" alt="{{config('app.name')}}">
+                        <img style="padding:10px" class="img-fluid" @src="/images/home/logo-white.png" alt="{{config('app.name')}}">
                     </a>
                 </div>
             </div>
