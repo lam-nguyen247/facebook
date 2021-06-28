@@ -189,7 +189,7 @@
                     <div class="footer-content">
                         <h3 class="title" >@lang('Contact')</h3>
                         <ul class="footer-list">
-                            <li><a href="tel:{{$config->phone}}" title="Số điện thoại">{{$config->phone}}</a></li>
+                            <li><a href="tel:+840988508769" title="Số điện thoại">Hotline: {{$config->phone}}</a></li>
                             <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
                             <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->zalo}}" title="Zalo" >{{$config->zalo}}</a></li>
                         </ul>

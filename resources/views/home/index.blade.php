@@ -58,6 +58,10 @@
                             <iframe width="100%"  src="{{$config->youtube}}?autoplay=1&mute=0" title="YouTube video player" frameborder="0"
                             allowfullscreen allow='autoplay'></iframe>
                         </div>
+                        @else
+                        <div class="video-container">
+                           <img src="/images/banner.jpg"/>
+                        </div>
                        @endif
                     </div>
                 </div>
