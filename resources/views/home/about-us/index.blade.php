@@ -14,7 +14,7 @@
                         <div class="grid-hero__wrapp">
                             <div class="grid-hero__content">
                                 <div class="box-hero">
-                                    <h4 class="sub" data-cms="{{app()->getLocale()}}-about-index-9">ABOUT OUR COMPANY</h4>
+                                    <h4 class="sub" data-cms="{{app()->getLocale()}}-about-index-9">Giới thiệu chung</h4>
                                     <h2 class="title"><span data-cms="{{app()->getLocale()}}-about-index-11">Branding is <br> the</span> <span class="hero" style="text-decoration-line: none;" data-cms="{{app()->getLocale()}}-about-index-12">KEY</span></h2>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
     <div class="grid-about-me">
         <div class="container">
             <div class="grid-head">
-                <h2 class="title" data-cms="{{app()->getLocale()}}-about-index-52">We are ShopGroup</h2>
+                <h2 class="title" data-cms="{{app()->getLocale()}}-about-index-52">Chúng tôi là ShopGroup</h2>
             </div>
             <div class="grid-content">
                 <div class="row">
