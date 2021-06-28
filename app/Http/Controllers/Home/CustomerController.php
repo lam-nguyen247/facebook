@@ -18,10 +18,9 @@ class CustomerController extends Controller
         $request['theme'] = session('theme');
         $request['language'] = session('locale');
         $customer = Customer::create($request->all());
-        try{
-            Notification::route('mail', 'adgroup.vnn@gmail.com')->notify(new CustomerNotification($customer));
-        }catch(Exception $err){
-            Log::log("Email", $err);
-        }
+
+        Notification::route('mail', 'adgroup.vnn@gmail.com')->notify(new CustomerNotification($customer));
+        return true;
+
     }
 }
