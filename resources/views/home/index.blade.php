@@ -1,7 +1,7 @@
 @extends('home.layouts.app')
 
-@section('title', 'ShopGroup.vn Đơn Vị Mua Bán Chuyển Nhượng Kênh Youtube Uy Tín')
-@section('description', 'Bạn đang có nhu cầu mua bán kênh Youtube chất lượng? ShopGroup.vn - đơn vị mua bán chuyển nhượng kênh youtube uy tín tại Việt Nam sẽ giúp bạn làm điều đó.')
+@section('title', 'ShopGroup.vn Đơn Vị Mua Bán Chuyển Nhượng Group Facebook Uy Tín')
+@section('description', 'Bạn đang có nhu cầu mua bán Group Facebook chất lượng? ShopGroup.vn - đơn vị mua bán chuyển nhượng Group Facebook uy tín tại Việt Nam sẽ giúp bạn làm điều đó.')
 @section('css')
 
 <style>
@@ -68,7 +68,7 @@
     <div class="grid-service servicee">
         <div class="container">
             <div class="box-call">
-                <h3 class="title" data-cms="{{app()->getLocale()}}-index-24">Tại sao nên sở hữu một kênh youtube</h3>
+                <h3 class="title" data-cms="{{app()->getLocale()}}-index-24">Tại sao nên sở hữu một Group Facebook</h3>
                 <div class="sapo" style="max-width:740px">
                     <p style="text-align: left" data-cms="{{app()->getLocale()}}-index-26">
                         Youtube tạo nên thương hiệu cho Sản Phẩm, Doanh Nghiệm của bạn.
@@ -78,7 +78,7 @@
                     </p>
                     <div class="btn-normal" style="margin-top: 10px;">
                         <a style="background: #4F4F4F; border-radius: 24px;" href="/@lang('channels')" title="Get to know us">
-                            <span style="color: white !important" class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Kênh</span>
+                            <span style="color: white !important" class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Group</span>
                             <svg style="color: white !important" class="icon"><use xlink:href="#icon-arrow"></use></svg>
                         </a>
                     </div>
@@ -97,11 +97,11 @@
     swal("Hãy lựa chọn nhu cầu của bạn?", {
         buttons: {
             catch: {
-                text: "Tôi muốn mua kênh",
+                text: "Tôi muốn mua group",
                 value: "catch",
             },
             defeat: {
-                text: "Tôi muốn bán kênh",
+                text: "Tôi muốn bán group",
                 value: "defeat",
             }
         },
@@ -109,11 +109,11 @@
         .then((value) => {
         switch (value) {
             case "defeat":
-            window.location.href = "https://shopgroup.vn/chuyen-nhuong-lai-kenh-youtube"
+            window.location.href = "https://shopgroup.vn/chuyen-nhuong-lai-group-facebook"
             break;
 
             case "catch":
-                window.location.href = "https://shopgroup.vn/mua-kenh-youtube"
+                window.location.href = "https://shopgroup.vn/mua-group-facebook"
             break;
         }
     });

@@ -29,14 +29,14 @@
     <div class="grid-contact" id="grid-hero">
         <div class="container">
             <div class="grid-head" style="text-align: center">
-                <h2 class="title" style="text-align: center" data-cms="{{app()->getLocale()}}-channel-index-4">Danh sách kênh!</h2>
+                <h2 class="title" style="text-align: center" data-cms="{{app()->getLocale()}}-channel-index-4">Danh sách group!</h2>
                 <div class="sapo">
                     <p data-cms="{{app()->getLocale()}}-channel-index-6">Vui lòng liên hệ với chúng tôi qua email hoặc hotline.</p>
                 </div>
             </div>
             <div class="row" style="background-color:white; padding: 15px">
                 <div style="order: 1 !important;" class="col-12 col-md-12 col-lg-12">
-                    <form id="ds" action="/mua-kenh-youtube" method="GET">
+                    <form id="ds" action="/mua-group-facebook" method="GET">
                         @csrf
                         <div class="container">
                             <div class="row" style="margin-bottom: 20px;">
@@ -92,21 +92,21 @@
 
                         <tbody>
                             @for ($i = 1; $i < count($values); $i++)
-                  
+
                                 <tr>
                                     <td>{{number_format($values[$i][0], 0, ',', '.')}}</td>
 
                                     <td>
-                                        {{$values[$i][1]}}                                  
+                                        {{$values[$i][1]}}
                                     </td>
                                     <td>
                                         <input value="{{$values[$i][2]}}" type="text" style="display: none;" id="link_{{$i}}"/>
                                         <button onclick="xemKenh('{{$values[$i][2]}}')" title="{{$values[$i][2]}}" alt="{{$values[$i][2]}}" target="_blank" style="background-color: #2196F3; border: 1px solid #2196F3;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
-                                        0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; margin: 5px; min-width: 61px;" onclick="copy('link_{{$i}}')">Xem kênh</button>
+                                        0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; margin: 5px; min-width: 61px;" onclick="copy('link_{{$i}}')">Xem group</button>
                                         <button style="background-color: #8CE78C; border: 1px solid #8CE78C; margin: 5px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                         0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; min-width: 61px;" onclick="copy('link_{{$i}}')">Sao chép</button>
                                         </td>
-                                   
+
                                     <td>
                                         {{$values[$i][3]}}
                                     </td>
@@ -143,7 +143,7 @@
 <script>
 
     function go(){
-        window.open('/quy-trinh-giao-dich-kenh-youtube', '_blank');
+        window.open('/quy-trinh-giao-dich-group-facebook', '_blank');
     }
 
     $("#reset").click(function(e){
@@ -192,11 +192,11 @@
             "order": [[ 0, "desc" ]],
             "language": {
                 "sProcessing":    "Đang tìm kiếm...",
-                "sLengthMenu":    "Hiển thị _MENU_ kênh",
+                "sLengthMenu":    "Hiển thị _MENU_ group",
                 "sZeroRecords":   "No se encontraron resultados",
                 "sEmptyTable":    "Ningún dato disponible en esta tabla",
-                "sInfo":          "Bắt đầu từ kênh _START_ đến _END_ trong tổng _TOTAL_ kênh",
-                "sInfoEmpty":     "Không có kênh nào",
+                "sInfo":          "Bắt đầu từ group _START_ đến _END_ trong tổng _TOTAL_ group",
+                "sInfoEmpty":     "Không có group nào",
                 "sInfoFiltered":  "(filtrado de un total de _MAX_ registros)",
                 "sInfoPostFix":   "",
                 "sSearch":        "Tìm kiếm:",

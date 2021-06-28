@@ -126,10 +126,10 @@
                                     <a href="/@lang('about-us')" class="navigation__link">@lang('About Us')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/mua-kenh-youtube" class="navigation__link" >@lang('Channels')</a>
+                                    <a href="/mua-group-facebook" class="navigation__link" >@lang('Channels')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/chuyen-nhuong-lai-kenh-youtube" class="navigation__link" >@lang('Buy-Channels')</a>
+                                    <a href="/chuyen-nhuong-lai-group-facebook" class="navigation__link" >@lang('Buy-Channels')</a>
                                 </li>
                                 <li class="navigation__item">
                                     <a href="/@lang('news')" class="navigation__link" >@lang('News')</a>
@@ -241,7 +241,7 @@
 <div class="modal" id="modal-form">
     <button class="modal-close-btn" id="close-btn">
         <svg class="icon"><use xlink:href="#icon-close"></use></svg>
-    </button>   
+    </button>
 </div>
 <div class="box-contact">
     <div class="hotline-phone" style="display: none;">
