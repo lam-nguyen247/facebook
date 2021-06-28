@@ -53,10 +53,12 @@
             <div class="box-service-home branding">
                 <div class="box-content row">
                     <div class="col-12 col-md-12 " style="text-align: center; padding-bottom:20px;">
+                       @if ($config->youtube != null)
                         <div class="video-container">
-                        <iframe width="100%"  src="https://www.youtube.com/embed/oITErRInqZM?autoplay=1&mute=0" title="YouTube video player" frameborder="0"
-                        allowfullscreen allow='autoplay'></iframe>
+                            <iframe width="100%"  src="{{$config->youtube}}?autoplay=1&mute=0" title="YouTube video player" frameborder="0"
+                            allowfullscreen allow='autoplay'></iframe>
                         </div>
+                       @endif
                     </div>
                 </div>
             </div>
