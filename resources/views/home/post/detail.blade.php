@@ -1,7 +1,7 @@
 @extends('home.layouts.app')
 
 @section('title', $post->name)
-
+@section('cover', $post->image)
 @section('content')
     <div class="page-wrapper new-detail">
         {{-- Block hero --}}
@@ -40,6 +40,10 @@
                                 </a>
                             @endforeach
                         </div>
+                        <input value="{{$post->href}}" type="text" style="display: none;" id="link-post"/>
+                        <button onclick="copy('link-post')">
+                            <img src="/images/home/export.png" />
+                        </button>
                     </div>
                 </div>
             </div>
@@ -48,4 +52,18 @@
         @include('home.includes.consultation')
     </div>
 
+@endsection
+@section('js')
+<script>
+    function copy(id) {
+        /* Get the text field */
+        var copyText = document.getElementById(id);
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val(copyText.value).select();
+        document.execCommand("copy");
+        $temp.remove();
+    }
+
+</script>
 @endsection
