@@ -15,9 +15,9 @@
                             {!!$post->content!!}
                         </div>
                         <input value="{{url($post->href)}}" type="text" style="display: none;" id="link-post"/>
-                        <div class="btn-normal" style="margin-top: 10px;">
+                        <div class="btn-normal" style="margin-top: 10px; text-align: right">
                             <a style="background: #4F4F4F; border-radius: 24px;" href="javascript:void(0)"  onclick="copy('link-post')" title="Get to know us">
-                                <span style="color: white !important" class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Sao chép liên kết</span>
+                                <span style="color: white !important" class="btn-normal__title">Sao chép liên kết</span>
                                 <svg style="color: white !important" class="icon"><use xlink:href="#icon-arrow"></use></svg>
                             </a>
                         </div>
