@@ -1,7 +1,7 @@
 @extends('home.layouts.app')
 
 @section('title', $post->name)
-@section('cover', $post->image)
+@section('cover', url($post->image))
 @section('content')
     <div class="page-wrapper new-detail">
         {{-- Block hero --}}
