@@ -21,6 +21,10 @@
                                 <img @src="/images/home/arrow_forward_24px.png" alt="arrow direct" class="tour-contact-arrow" />
                             </div>
                         </div>
+                        <input value="{{url($post->href)}}" type="text" style="display: none;" id="link-post"/>
+                        <button onclick="copy('link-post')">
+                            <img src="/images/home/export.png" />
+                        </button>
                     </div>
                     <div class="col-md-4 tour-list-item">
                         <h4>@lang('News')</h4>
@@ -40,10 +44,7 @@
                                 </a>
                             @endforeach
                         </div>
-                        <input value="{{$post->href}}" type="text" style="display: none;" id="link-post"/>
-                        <button onclick="copy('link-post')">
-                            <img src="/images/home/export.png" />
-                        </button>
+
                     </div>
                 </div>
             </div>
