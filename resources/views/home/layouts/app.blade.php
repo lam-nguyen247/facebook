@@ -246,7 +246,7 @@
           <div class="ring-circle"></div>
           <div class="ring-circle-fill"></div>
           <div class="ring-img-circle">
-            <a href="tel:+84899707888" class="btn-img">
+            <a href="tel:+84988508769" class="btn-img">
               <img src="/images/home/phone.png" width="38">
             </a>
           </div>
