@@ -41,7 +41,7 @@ Route::post('customer', [CustomerController::class, 'store']);
 Route::post('cms', [CmsController::class, 'index']);
 Route::get('chuyen-nhuong-lai-group-facebook', [PageController::class,'transChannel']);
 Route::get('quy-trinh-giao-dich-group-facebook', [PageController::class,'methodChannel']);
-
+Route::get('thong-tin-thanh-toan', [PageController::class,'info']);
 
 Route::get('{locale}', [LocalizationController::class, 'set'])->name('locale')->where('locale', 'en|vi');
 //Route::get('{provider}/login', [LoginController::class, 'redirectToProvider'])->name('social');
