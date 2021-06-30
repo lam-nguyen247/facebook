@@ -117,19 +117,22 @@
                             <h4 class="navigation__lable" data-cms="{{app()->getLocale()}}-layouts-app-47">Menu</h4>
                             <ul class="navigation__list" id="navi-menu">
                                 <li class="navigation__item active">
-                                    <a href="/@lang('about-us')" class="navigation__link">@lang('About Us')</a>
+                                    <a href="/@lang('about-us')" class="navigation__link">►@lang('About Us')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/mua-group-facebook" class="navigation__link" >@lang('Channels')</a>
+                                    <a href="/mua-group-facebook" class="navigation__link" >►@lang('Channels')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/chuyen-nhuong-lai-group-facebook" class="navigation__link" >@lang('Buy-Channels')</a>
+                                    <a href="/chuyen-nhuong-lai-group-facebook" class="navigation__link" >►@lang('Buy-Channels')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('news')" class="navigation__link" >@lang('News')</a>
+                                    <a href="/@lang('news')" class="navigation__link" >►@lang('News')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('contact')" class="navigation__link">@lang('Contact')</a>
+                                    <a href="/@lang('contact')" class="navigation__link">►@lang('Contact')</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a href="/thong-tin-thanh-toan" class="navigation__link">►Thông tin thanh toán</a>
                                 </li>
                             </ul>
                         </div>
