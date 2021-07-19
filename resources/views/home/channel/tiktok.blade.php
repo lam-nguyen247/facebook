@@ -57,7 +57,7 @@
                                 <div class="col-lg-6 col-md-12" style="order: 2 !important">
                                    <div class="row">
                                         <div class="col-2 col-sm-12">
-                                            <label style="margin-right:10px;">Lượng Members: </label>
+                                            <label style="margin-right:10px;">Lượng Follow: </label>
                                         </div>
                                         <div class="col-md-6 col-sm-12">
                                             <span style="width: 32px; display: inline-block;"> Từ </span> <input style="width: 85%; margin-bottom: 10px; margin-left: 5px;"  value="{{isset($_GET['sub_f'])?$_GET['sub_f']:0}}"  type="number" id="sub_f" name="sub_f">
