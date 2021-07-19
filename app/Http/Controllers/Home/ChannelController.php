@@ -149,7 +149,7 @@ class ChannelController extends Controller
         }
         $page = Page::find(15);
         $seo = $page->seo;
-        return view('home.tiktok.index', compact("values", 'page', 'seo'));
+        return view('home.channel.tiktok', compact("values", 'page', 'seo'));
     }
 
 }
