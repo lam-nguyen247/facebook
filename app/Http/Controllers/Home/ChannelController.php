@@ -112,7 +112,7 @@ class ChannelController extends Controller
 		$client = $this->getGoogleClient();
 		$service = new Google_Service_Sheets($client);
 		$spreadsheetId = '1VT8A6swg0XoKOHtEHpv07zHKIibd7SyzZ5MPB9XmAMs';
-		$range = 'Tiktok!A2:G';
+		$range = 'Tiktok!A2:F';
 
 		// get values
 		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
@@ -124,7 +124,6 @@ class ChannelController extends Controller
                 $values[] = $item;
                 continue;
             }
-            dd($item);
             $item[0] = (int)str_replace('.', '', $item[0]);
             $item[4] = (int)str_replace('.', '', $item[4]);
             if(!empty($request->sub_f)){
