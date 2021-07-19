@@ -118,7 +118,7 @@ class ChannelController extends Controller
 		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
 		$arr = $response->getValues();
         $values = [];
-
+        dd($arr);
         foreach($arr as $key=>$item){
             if($key == 0){
                 $values[] = $item;
