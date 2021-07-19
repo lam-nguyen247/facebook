@@ -36,7 +36,7 @@
             </div>
             <div class="row" style="background-color:white; padding: 15px">
                 <div style="order: 1 !important;" class="col-12 col-md-12 col-lg-12">
-                    <form id="ds" action="/mua-group-facebook" method="GET">
+                    <form id="ds" action="/mua-tai-khoan-tiktok" method="GET">
                         @csrf
                         <div class="container">
                             <div class="row" style="margin-bottom: 20px;">
@@ -90,9 +90,7 @@
                         </thead>
 
                         <tbody>
-                            @dd($values);
-                            @for ($i = 1; $i < count($values); $i++)
-
+                            @for ($i = 1; $i < count($values)-1; $i++)
                                 <tr>
                                     <td>{{$values[$i][0]}}</td>
 
