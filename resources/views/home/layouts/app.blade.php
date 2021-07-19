@@ -120,21 +120,28 @@
                                     <a href="/@lang('about-us')" class="navigation__link">►@lang('About Us')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <p  class="navigation__link" >►Dịch vụ facebook</p>
-                                    <ul>
-                                        <li>Bán Group Facebook</li>
-                                        <li>Tăng thành viên cho Group</li>
-                                        <li>Bán Fanpage Facebook</li>
-                                        <li>Tăng Like cho Fanpage</li>
-                                        <li>Thu mua lại Group facebook</li>
-                                        <li>Thu mua lại FanPage</li>
+                                    <p  class="navigation__link" >►Dịch vụ Facebook</p>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                           <a href="/mua-group-facebook">Bán Group Facebook</a>
+                                        </li>
+                                        <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li>
+                                        <li class="sub-item"> <a href="/mua-group-facebook"> Bán Fanpage Facebook </a></li>
+                                        <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li>
+                                        <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
+                                        <li class="sub-item"> <a href="/tin-tuc/Thu mua lại FanPage"> Thu mua lại FanPage </a></li>
                                     </ul>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/mua-kenh-tiktok" class="navigation__link" >►Mua kênh Tiktok</a>
-                                </li>
-                                <li class="navigation__item">
-                                    <a href="/chuyen-nhuong-lai-group-facebook" class="navigation__link" >►@lang('Buy-Channels')</a>
+                                    <a href="/mua-kenh-tiktok" class="navigation__link" >►Dịch vụ Tiktok</a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                           <a href="/mua-kenh-tiktok">Bán tài khoản Tiktok</a>
+                                        </li>
+                                        <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
+                                        <li class="sub-item"> <a href="/tang-like-tiktok"> Tăng Like Tiktok </a></li>
+                                        <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li>
+                                    </ul>
                                 </li>
                                 <li class="navigation__item">
                                     <a href="/@lang('news')" class="navigation__link" >►@lang('News')</a>

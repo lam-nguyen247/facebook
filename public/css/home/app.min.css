@@ -2072,6 +2072,19 @@ header .header__nav .title {
   text-decoration: underline;
 }
 
+.sub-menu {
+  list-style: circle;
+  padding-left: 80px;
+}
+
+.sub-menu .sub-item a {
+  color: black;
+}
+
+.sub-menu .sub-item a:hover {
+  color: #2196F3;
+}
+
 .navigation__info {
   margin-top: 2rem;
 }
@@ -2223,6 +2236,10 @@ header .header__nav .title {
 @media only screen and (min-width: 1440px) {
   .navigation__list .navigation__item .navigation__link {
     font-size: 3rem;
+  }
+
+  .sub-menu .sub-item {
+    font-size: 1.9rem;
   }
 
   .navigation__image img {

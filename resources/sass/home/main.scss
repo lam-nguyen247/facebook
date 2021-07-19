@@ -896,7 +896,16 @@ header {
         }
     }
 }
-
+.sub-menu{
+    list-style: circle;
+    padding-left: 80px;
+    .sub-item a{
+        color: black;
+    }
+    .sub-item a:hover{
+        color: $color-primary;
+    }
+}
 .navigation__info {
     margin-top: 2rem;
     .navigation-list {
@@ -1050,6 +1059,11 @@ header {
             .navigation__link {
                 font-size: 3rem;
             }
+        }
+    }
+    .sub-menu{
+        .sub-item{
+            font-size: 1.9rem;
         }
     }
     .navigation__image {
