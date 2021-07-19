@@ -16,9 +16,15 @@
         margin: 10px;
         color: white
     }
+    .swal2-container .swal2-popup{
+        min-width: 825px ;
+    }
     @media only screen and (max-width: 600px) {
         .popup-btn {
             font-size: 13px;
+        }
+        .swal2-container .swal2-popup{
+            min-width: 100% ;
         }
     }
 </style>
