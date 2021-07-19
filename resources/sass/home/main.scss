@@ -897,13 +897,13 @@ header {
     }
 }
 .sub-menu{
-    list-style: circle;
-    padding-left: 80px;
+    list-style: circle !important;
+    padding-left: 80px !important;
     .sub-item a{
-        color: black;
+        color: black !important;
     }
     .sub-item a:hover{
-        color: $color-primary;
+        color: $color-primary !important;
     }
 }
 .navigation__info {

@@ -2073,16 +2073,16 @@ header .header__nav .title {
 }
 
 .sub-menu {
-  list-style: circle;
-  padding-left: 80px;
+  list-style: circle !important;
+  padding-left: 80px !important;
 }
 
 .sub-menu .sub-item a {
-  color: black;
+  color: black !important;
 }
 
 .sub-menu .sub-item a:hover {
-  color: #2196F3;
+  color: #2196F3 !important;
 }
 
 .navigation__info {
