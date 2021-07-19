@@ -1979,12 +1979,11 @@ header .header__nav .title {
   color: var(--color-black);
   font-weight: 700;
   margin-right: 1.75rem;
-  border-bottom: 2px solid var(--color-black);
   transition: all 0.3s ease;
 }
 
 .navigation .menu {
-  right: 450px !important;
+  right: 540px !important;
   display: flex;
   top: 0px;
   justify-content: space-between;
@@ -2008,7 +2007,7 @@ header .header__nav .title {
 
 .navigation .menu .my-menu .my-item {
   position: relative;
-  padding: 28px 25px 22px 25px;
+  padding: 26px 25px 22px 25px;
   cursor: pointer;
 }
 
@@ -2025,6 +2024,7 @@ header .header__nav .title {
   height: 2px;
   background: #2196F3;
   transform: scaleX(0);
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .navigation .menu .my-menu .my-item:hover::after,
@@ -2042,6 +2042,7 @@ header .header__nav .title {
   text-transform: uppercase;
   color: var(--color-black);
   font-weight: 700;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .navigation .menu .sub-menu {
@@ -2501,6 +2502,10 @@ header .header__nav .title {
 
 #body-site.hide .theme-switch-wrapper {
   top: -40px;
+}
+
+#body-site.hide .navigation .menu {
+  top: -80px !important;
 }
 
 .typed-cursor {
