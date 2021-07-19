@@ -292,8 +292,7 @@
 </div>
 
 <script
-  src="/js/home/jquery-3.6.0.min.js"
-  crossorigin="anonymous"></script>
+  src="/js/home/jquery-3.6.0.min.js"></script>
 <script async defer crossorigin="anonymous" type="text/javascript" src="/js/home/app.min.js"></script>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=585723972044551&autoLogAppEvents=1" nonce="2spNzV4z"></script>
