@@ -120,7 +120,15 @@
                                     <a href="/@lang('about-us')" class="navigation__link">►@lang('About Us')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/mua-group-facebook" class="navigation__link" >►@lang('Channels')</a>
+                                    <p  class="navigation__link" >►Dịch vụ facebook</p>
+                                    <ul>
+                                        <li>Bán Group Facebook</li>
+                                        <li>Tăng thành viên cho Group</li>
+                                        <li>Bán Fanpage Facebook</li>
+                                        <li>Tăng Like cho Fanpage</li>
+                                        <li>Thu mua lại Group facebook</li>
+                                        <li>Thu mua lại FanPage</li>
+                                    </ul>
                                 </li>
                                 <li class="navigation__item">
                                     <a href="/mua-kenh-tiktok" class="navigation__link" >►Mua kênh Tiktok</a>
