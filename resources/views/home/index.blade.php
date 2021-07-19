@@ -103,15 +103,15 @@
     swal("Hãy lựa chọn nhu cầu của bạn?", {
         buttons: {
             catch: {
-                text: "Tôi muốn mua group",
+                text: "Tôi muốn mua Group Facebook",
                 value: "catch",
             },
             tiktok: {
-                text: "Tôi muốn mua kênh tiktok",
+                text: "Tôi muốn mua kênh Tiktok",
                 value: "tiktok",
             },
             defeat: {
-                text: "Tôi muốn bán group",
+                text: "Tôi muốn bán Group Facebook",
                 value: "defeat",
             }
         },
