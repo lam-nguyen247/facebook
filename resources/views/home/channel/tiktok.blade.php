@@ -86,6 +86,7 @@
                                 <th>{{$values[0][2]}}</th>
                                 <th>{{$values[0][3]}}</th>
                                 <th>{{$values[0][4]}}</th>
+                                <th>{{$values[0][5]}}</th>
                             </tr>
                         </thead>
 
@@ -141,7 +142,7 @@
 <script>
 
     function go(){
-        window.open('/quy-trinh-giao-dich-group-facebook', '_blank');
+        window.open('/quy-trinh-giao-dich-kenh-tiktok', '_blank');
     }
 
     $("#reset").click(function(e){
@@ -190,11 +191,11 @@
             "order": [[ 0, "desc" ]],
             "language": {
                 "sProcessing":    "Đang tìm kiếm...",
-                "sLengthMenu":    "Hiển thị _MENU_ group",
+                "sLengthMenu":    "Hiển thị _MENU_ kênh",
                 "sZeroRecords":   "No se encontraron resultados",
                 "sEmptyTable":    "Ningún dato disponible en esta tabla",
-                "sInfo":          "Bắt đầu từ group _START_ đến _END_ trong tổng _TOTAL_ group",
-                "sInfoEmpty":     "Không có group nào",
+                "sInfo":          "Bắt đầu từ kênh _START_ đến _END_ trong tổng _TOTAL_ kênh",
+                "sInfoEmpty":     "Không có kênh nào",
                 "sInfoFiltered":  "(filtrado de un total de _MAX_ registros)",
                 "sInfoPostFix":   "",
                 "sSearch":        "Tìm kiếm:",
