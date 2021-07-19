@@ -5,38 +5,21 @@
 @section('css')
 
 <style>
-    .video-container {
-        position: relative;
-        padding-bottom: 56.25%; /* 16:9 */
-        height: 0;
-    }
-    .video-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .swal-overlay {
-        background-color: rgba(30, 30, 30, 0.55);
-    }
-    .swal-button {
+    .popup-btn {
         padding: 7px 19px;
         border-radius: 2px;
         background-color: #2196F3;
         font-size: 20px;
         border: 1px solid #2196F3;
+        display: block;
         text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+        margin: 10px;
+        color: white
     }
-    .swal-modal{
-        min-width: 50% !important;
-        max-width: 100% !important;
-    }
-    .swal-footer{
-        text-align: center;
-    }
-    .swal-text{
-        font-size: 22px;
+    @media only screen and (max-width: 600px) {
+        .popup-btn {
+            font-size: 13px;
+        }
     }
 </style>
 @endsection
@@ -98,38 +81,32 @@
 @endsection
 
 @section('js')
-<script src="/js/home/sweetalert.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
-    swal("Hãy lựa chọn nhu cầu của bạn?", {
-        buttons: {
-            catch: {
-                text: "Tôi muốn mua Group Facebook",
-                value: "catch",
-            },
-            tiktok: {
-                text: "Tôi muốn mua kênh Tiktok",
-                value: "tiktok",
-            },
-            defeat: {
-                text: "Tôi muốn bán Group Facebook",
-                value: "defeat",
-            }
-        },
-        })
-        .then((value) => {
-        switch (value) {
-            case "defeat":
-            window.location.href = "https://shopgroup.vn/chuyen-nhuong-lai-group-facebook"
-            break;
-
-            case "catch":
-                window.location.href = "https://shopgroup.vn/mua-group-facebook"
-            break;
-
-            case "tiktok":
-                window.location.href = "https://shopgroup.vn/mua-kenh-tiktok"
-            break;
-        }
-    });
+    Swal.fire({
+        width: 'auto',
+  title: '<strong>Nhu cầu của bạn</u></strong>',
+  icon: 'info',
+  html:
+    `<div style='float:left; width: 50%'>
+        <div>
+            <img style='width: 150px; height: 150px;' src='/images/home/fb_icon_325x325.png'>
+        </div>
+        <a class='popup-btn' href='https://shopgroup.vn/mua-group-facebook'> Tôi muốn: Mua group Facebook</a>
+        <a class='popup-btn' href='https://shopgroup.vn/chuyen-nhuong-lai-group-facebook'> Tôi muốn: Bán group Facebook</a>
+    </div>
+    <div style='float:left; width: 50%'>
+        <div>
+            <img style='width: 150px; height: 150px; border-radius: 6px' src='/images/home/share_img.png'>
+        </div>
+        <a class='popup-btn' href='https://shopgroup.vn/mua-kenh-tiktok'> Tôi muốn: Mua kênh TikTok</a>
+        <a class='popup-btn' href='https://shopgroup.vn/chuyen-nhuong-lai-kenh-tiktok'> Tôi muốn: Bán kênh tiktok</a>
+    </div>
+    `,
+  showCloseButton: true,
+  confirmButtonText:
+    '<i class="fa fa-thumbs-up"></i> Hủy',
+  confirmButtonAriaLabel: 'Thumbs up, great!',
+})
 </script>
 @endsection
