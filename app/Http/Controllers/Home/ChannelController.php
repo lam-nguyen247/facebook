@@ -125,7 +125,7 @@ class ChannelController extends Controller
                 continue;
             }
             $item[0] = (int)str_replace('.', '', $item[0]);
-            $item[4] = (int)str_replace('.', '', $item[5]);
+            $item[4] = (int)str_replace('.', '', $item[4]);
             if(!empty($request->sub_f)){
                 if($item[0] < $request->sub_f){
                     continue;
