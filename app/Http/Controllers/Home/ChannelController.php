@@ -104,4 +104,53 @@ class ChannelController extends Controller
    public function getKey(Request $request){
        dd($request->all());
    }
+
+
+   public function tiktok(Request $request)
+
+    {
+		$client = $this->getGoogleClient();
+		$service = new Google_Service_Sheets($client);
+		$spreadsheetId = '1VT8A6swg0XoKOHtEHpv07zHKIibd7SyzZ5MPB9XmAMs';
+		$range = 'Tiktok!A2:G';
+
+		// get values
+		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
+		$arr = $response->getValues();
+        $values = [];
+
+        foreach($arr as $key=>$item){
+            if($key == 0){
+                $values[] = $item;
+                continue;
+            }
+            $item[0] = (int)str_replace('.', '', $item[0]);
+            $item[5] = (int)str_replace('.', '', $item[5]);
+            if(!empty($request->sub_f)){
+                if($item[0] < $request->sub_f){
+                    continue;
+                }
+            }
+            if(!empty($request->sub_t)){
+                if($item[0] > $request->sub_t){
+                    continue;
+                }
+            }
+            if(!empty($request->price_f)){
+                if($item[5] < $request->price_f){
+                    continue;
+                }
+            }
+            if(!empty($request->price_t)){
+                if($item[5] > $request->price_t){
+                    continue;
+                }
+            }
+            $values[] = $item;
+        }
+        $page = Page::find(15);
+        $seo = $page->seo;
+        return view('home.tiktok.index', compact("values", 'page', 'seo'));
+    }
+
 }
