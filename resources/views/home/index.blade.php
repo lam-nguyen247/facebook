@@ -106,6 +106,10 @@
                 text: "Tôi muốn mua group",
                 value: "catch",
             },
+            tiktok: {
+                text: "Tôi muốn mua kênh tiktok",
+                value: "tiktok",
+            },
             defeat: {
                 text: "Tôi muốn bán group",
                 value: "defeat",
@@ -120,6 +124,10 @@
 
             case "catch":
                 window.location.href = "https://shopgroup.vn/mua-group-facebook"
+            break;
+
+            case "tiktok":
+                window.location.href = "https://shopgroup.vn/mua-kenh-tiktok"
             break;
         }
     });
