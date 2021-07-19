@@ -71,7 +71,7 @@
         <nav class="site-nav">
             <ul class="my-menu">
                 <li class="my-item"><a href="/@lang('about-us')" class="navigation__link">@lang('About Us')</a></li>
-                <li class="my-item"> <a href="/@lang('about-us')" class="navigation__link">►@lang('About Us')</a></li>
+                <li class="my-item"> <a href="/@lang('about-us')" class="navigation__link">@lang('About Us')</a></li>
                 <li class="my-item">
                     <a href="#">Dịch vụ Facebook</a>
                     <ul class="sub-menu">
