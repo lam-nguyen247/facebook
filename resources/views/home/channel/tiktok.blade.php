@@ -90,6 +90,7 @@
                         </thead>
 
                         <tbody>
+                            @dd($values);
                             @for ($i = 1; $i < count($values); $i++)
 
                                 <tr>
