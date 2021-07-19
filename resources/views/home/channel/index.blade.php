@@ -138,7 +138,7 @@
 @endsection
 @section("js")
 <script
-  src="/js/home/datatable.min.js"
+  src="/js/home/datatables.min.js"
   ></script>
 <script>
 
