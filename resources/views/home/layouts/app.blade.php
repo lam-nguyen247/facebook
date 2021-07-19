@@ -65,8 +65,42 @@
     <label id="navigation__button" for="navi-toggle" class="navigation__button">
         <span class="navigation__icon"></span>
     </label>
-    <div id="navigation__background" class="navigation__background"></div>
-    <h3 id="navigation__title" class="navigation__title" data-cms="{{app()->getLocale()}}-layouts-app-23">Let's talk</h3>
+    <div id="navigation__background" class="navigation__background">
+    </div>
+    <div id="navigation__title" class="navigation__title menu" >
+        <nav class="site-nav">
+            <ul class="my-menu">
+                <li class="my-item"><a href="/@lang('about-us')" class="navigation__link">@lang('About Us')</a></li>
+                <li class="my-item"> <a href="/@lang('about-us')" class="navigation__link">►@lang('About Us')</a></li>
+                <li class="my-item">
+                    <a href="#">Dịch vụ Facebook</a>
+                    <ul class="sub-menu">
+                        <li class="sub-item">
+                           <a href="/mua-group-facebook">Bán Group Facebook</a>
+                        </li>
+                        <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li>
+                        <li class="sub-item"> <a href="/mua-group-facebook"> Bán Fanpage Facebook </a></li>
+                        <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li>
+                        <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
+                        <li class="sub-item"> <a href="/tin-tuc/Thu mua lại FanPage"> Thu mua lại FanPage </a></li>
+                    </ul>
+                </li class="my-item">
+                <li class="my-item">
+                    <a href="#">Dịch vụ Tiktok</a>
+                    <ul class="sub-menu">
+                        <li class="sub-item">
+                           <a href="/mua-kenh-tiktok">Bán tài khoản Tiktok</a>
+                        </li>
+                        <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
+                        <li class="sub-item"> <a href="/tang-like-tiktok"> Tăng Like Tiktok </a></li>
+                        <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li>
+                    </ul>
+                </li>
+                <li class="my-item"><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+    </div>
+    <h3 id="navigation__title" class="navigation__title" data-cms="{{app()->getLocale()}}-layouts-app-23">LIÊN HỆ HOTLINE:  0988.50.8769 </h3>
 
     {{-- language --}}
     <div class="navigation__language language-picker js-language-picker" data-trigger-class="btn btn--subtle js-tab-focus">

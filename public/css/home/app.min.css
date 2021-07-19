@@ -1983,6 +1983,95 @@ header .header__nav .title {
   transition: all 0.3s ease;
 }
 
+.navigation .menu {
+  right: 450px !important;
+  display: flex;
+  top: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .menu .site-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navigation .menu .my-menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navigation .menu .my-menu:hover .my-item:not(:hover) a {
+  opacity: 0.2;
+}
+
+.navigation .menu .my-menu .my-item {
+  position: relative;
+  padding: 28px 25px 22px 25px;
+  cursor: pointer;
+}
+
+.navigation .menu .my-menu .my-item:hover .sub-menu {
+  display: block !important;
+}
+
+.navigation .menu .my-menu .my-item::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #2196F3;
+  transform: scaleX(0);
+}
+
+.navigation .menu .my-menu .my-item:hover::after,
+.navigation .menu .my-menu .my-item.active::after {
+  transform: scaleX(1);
+}
+
+.navigation .menu .my-menu .my-item > a {
+  position: relative;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+.navigation .menu .sub-menu {
+  position: absolute;
+  top: 82px;
+  display: none;
+  background: var(--bg-white);
+  width: 300px;
+}
+
+.navigation .menu .sub-menu .sub-item {
+  padding: 10px;
+  text-align: left;
+}
+
+.navigation .menu .sub-menu .sub-item > a {
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--color-black) !important;
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+}
+
+.navigation .menu .sub-menu .sub-item > a:hover {
+  color: #2196F3 !important;
+}
+
 .my-video {
   width: 50vw;
   height: 400px;
@@ -2072,16 +2161,16 @@ header .header__nav .title {
   text-decoration: underline;
 }
 
-.sub-menu {
+.navigation__list .navigation__item .sub-menu {
   list-style: circle !important;
   padding-left: 80px !important;
 }
 
-.sub-menu .sub-item a {
+.navigation__list .navigation__item .sub-menu .sub-item a {
   color: black !important;
 }
 
-.sub-menu .sub-item a:hover {
+.navigation__list .navigation__item .sub-menu .sub-item a:hover {
   color: #2196F3 !important;
 }
 

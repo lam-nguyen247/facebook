@@ -794,6 +794,84 @@ header {
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
+.navigation .menu{
+    right: 450px !important;
+    display: flex;
+    top:0px;
+    justify-content: space-between;
+    align-items: center;
+    .site-nav {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+    .my-menu {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    .my-menu:hover .my-item:not(:hover) a {
+        opacity: 0.2;
+    }
+    .my-menu .my-item {
+        position: relative;
+        padding: 28px 25px 22px 25px;
+        cursor: pointer;
+
+    }
+    .my-menu .my-item:hover .sub-menu{
+        display: block !important;
+    }
+    .my-menu .my-item::after {
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: $bg-primary;
+        transform: scaleX(0);
+    }
+    .my-menu .my-item:hover::after, .my-menu .my-item.active::after {
+        transform: scaleX(1);
+    }
+    .my-menu .my-item > a {
+        position: relative;
+        text-decoration: none;
+        font-size: .875rem;
+        line-height: 1.75rem;
+        text-align: center;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+        color: var(--color-black);
+        font-weight: 700;
+    }
+    .sub-menu{
+        position: absolute;
+        top: 82px;
+        display: none;
+        background: var(--bg-white);
+        width: 300px;
+        .sub-item {
+            padding: 10px;
+            text-align: left;
+        }
+        .sub-item > a{
+            font-size: .875rem;
+            line-height: 1.75rem;
+            letter-spacing: 0.2px;
+            text-transform: uppercase;
+            color: var(--color-black) !important;
+            text-decoration: none;
+            font-weight: 700;
+            display: block;
+        }
+        .sub-item > a:hover{
+            color: $bg-primary !important;
+
+        }
+    }
+}
 .my-video{
     width: 50vw;
     height: 400px;
@@ -894,18 +972,19 @@ header {
                 text-decoration: underline;
             }
         }
+        .sub-menu{
+            list-style: circle !important;
+            padding-left: 80px !important;
+            .sub-item a{
+                color: black !important;
+            }
+            .sub-item a:hover{
+                color: $color-primary !important;
+            }
+        }
     }
 }
-.sub-menu{
-    list-style: circle !important;
-    padding-left: 80px !important;
-    .sub-item a{
-        color: black !important;
-    }
-    .sub-item a:hover{
-        color: $color-primary !important;
-    }
-}
+
 .navigation__info {
     margin-top: 2rem;
     .navigation-list {
