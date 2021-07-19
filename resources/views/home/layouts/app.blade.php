@@ -123,6 +123,9 @@
                                     <a href="/mua-group-facebook" class="navigation__link" >►@lang('Channels')</a>
                                 </li>
                                 <li class="navigation__item">
+                                    <a href="/mua-kenh-tiktok" class="navigation__link" >►Mua kênh Tiktok</a>
+                                </li>
+                                <li class="navigation__item">
                                     <a href="/chuyen-nhuong-lai-group-facebook" class="navigation__link" >►@lang('Buy-Channels')</a>
                                 </li>
                                 <li class="navigation__item">
