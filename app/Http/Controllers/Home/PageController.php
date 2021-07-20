@@ -24,7 +24,7 @@ class PageController extends Controller
         return view('home.page.detail', compact('page', 'seo', 'postList'));
     }
 
-    public function transChannel2(){
+    public function transTiktok(){
         $page = Page::find(17);
         $postList = $this->postService->getPostList()->limit(5)->get();
         $seo = $page->seo;
@@ -38,7 +38,7 @@ class PageController extends Controller
         return view('home.page.detail', compact('page', 'seo', 'postList'));
     }
 
-    public function methodChannel2(){
+    public function methodTiktok(){
         $page = Page::find(16);
         $postList = $this->postService->getPostList()->limit(5)->get();
         $seo = $page->seo;
