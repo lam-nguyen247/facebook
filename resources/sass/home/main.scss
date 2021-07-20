@@ -732,9 +732,9 @@ header {
     z-index: 1000;
     background: rgba(20, 22, 26, .8);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(transparent, rgba(20, 22, 26, .8));
+    background: -webkit-linear-gradient(to right, transparent, rgba(20, 22, 26, .8));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(transparent, rgba(20, 22, 26, .8));
+    background: linear-gradient(to right, transparent, rgba(20, 22, 26, .8));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3408,6 +3408,7 @@ footer {
         min-width: 70px;
         font-family: "Montserrat", sans-serif;
         font-style: initial;
+        color: white;
     }
     img {
         width: 23px;
