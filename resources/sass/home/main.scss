@@ -839,12 +839,12 @@ header {
     .my-menu .my-item > a {
         position: relative;
         text-decoration: none;
-        font-size: .875rem;
+        font-size: 1rem;
         line-height: 1.75rem;
         text-align: center;
         letter-spacing: 0.2px;
         text-transform: uppercase;
-        color: var(--color-black);
+        color: white;
         font-weight: 700;
         transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
