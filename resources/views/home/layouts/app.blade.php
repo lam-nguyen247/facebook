@@ -102,7 +102,7 @@
             </ul>
           </nav>
     </div>
-    <h3 id="navigation__title" class="navigation__title" data-cms="{{app()->getLocale()}}-layouts-app-23">LIÊN HỆ HOTLINE:  0988.50.8769 </h3>
+    <h3 id="navigation__title" class="navigation__title" style="color:white !important" data-cms="{{app()->getLocale()}}-layouts-app-23">LIÊN HỆ HOTLINE:  0988.50.8769 </h3>
 
     {{-- language --}}
     <div class="navigation__language language-picker js-language-picker" data-trigger-class="btn btn--subtle js-tab-focus">
