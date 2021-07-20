@@ -246,7 +246,7 @@
                         <h1 style="font-size: 2rem"  class="title">Thông tin công ty</h1>
                         <ul class="footer-list">
                             <li><span>CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA</span></li>
-                            <li><span>Số 15A Ngõ 21/13 Lĩnh Nam - Hoàng Mai - Hà Nội</span></li>
+                            <li><span>Địa chỉ: Số 15A Ngõ 21/13 Lĩnh Nam - Hoàng Mai - Hà Nội</span></li>
                             <li><span>Mã số thuế: 0109379379</span> </li>
                             <li><a href="tel:+840988508769" title="Số điện thoại">Hotline: {{$config->phone}}</a></li>
                             <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
