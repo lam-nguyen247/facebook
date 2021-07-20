@@ -241,7 +241,7 @@
                         </ul>
                     </div>
                 </div> --}}
-                <div class="col-12 col-md-4 col-lg-2">
+                <div class="col-12 col-md-4 col-lg-5">
                     <div class="footer-content">
                         <h3 class="title">Facebook</h3>
                         <ul class="footer-list">
