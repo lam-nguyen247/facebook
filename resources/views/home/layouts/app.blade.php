@@ -237,13 +237,7 @@
                     <div class="footer-content">
                         <h1 style="font-size: 2rem" class="title" data-cms="{{app()->getLocale()}}-layouts-app-93">Thông tin công ty</h1>
                         <ul class="footer-list">
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100">Địa chỉ 1: Số 28A Ngõ 162 Khương Đình - Thanh Xuân - Hà Nội </span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-2">Địa chỉ 2: 62A Đà Sơn, Hoà Khánh Nam, Liên Chiểu, Tp. Đà Nẵng</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-3">CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-106-2">Mã số thuế: 0109379379</span> </li>
-                            <li><a href="tel:+840988508769" title="Số điện thoại">Hotline: {{$config->phone}}</a></li>
-                            <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
-                            <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->zalo}}" title="Zalo" >{{$config->zalo}}</a></li>
+
                         </ul>
                     </div>
                 </div> --}}
@@ -251,14 +245,13 @@
                     <div class="footer-content">
                         <h3 class="title">Facebook</h3>
                         <ul class="footer-list">
-                            <li class="sub-item">
-                                <a href="/mua-group-facebook">Bán Group Facebook</a>
-                             </li>
-                             <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li>
-                             <li class="sub-item"> <a href="/mua-group-facebook"> Bán Fanpage Facebook </a></li>
-                             <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li>
-                             <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
-                             <li class="sub-item"> <a href="/tin-tuc/Thu mua lại FanPage"> Thu mua lại FanPage </a></li>
+                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100">Địa chỉ 1: Số 28A Ngõ 162 Khương Đình - Thanh Xuân - Hà Nội </span></li>
+                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-2">Địa chỉ 2: 62A Đà Sơn, Hoà Khánh Nam, Liên Chiểu, Tp. Đà Nẵng</span></li>
+                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-3">CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA</span></li>
+                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-106-2">Mã số thuế: 0109379379</span> </li>
+                            <li><a href="tel:+840988508769" title="Số điện thoại">Hotline: {{$config->phone}}</a></li>
+                            <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
+                            <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->zalo}}" title="Zalo" >{{$config->zalo}}</a></li>
                         </ul>
                     </div>
                 </div>
