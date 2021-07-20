@@ -246,7 +246,7 @@
                             <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->zalo}}" title="Zalo" >{{$config->zalo}}</a></li>
                         </ul>
                     </div>
-                </div>0109379379
+                </div>
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="footer-content">
                         <h3 class="title">Facebook</h3>
