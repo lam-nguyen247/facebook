@@ -243,12 +243,11 @@
                 </div> --}}
                 <div class="col-12 col-md-4 col-lg-5">
                     <div class="footer-content">
-                        <h3 class="title">Facebook</h3>
+                        <h1 style="font-size: 2rem"  class="title">Thông tin công ty</h1>
                         <ul class="footer-list">
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100">Địa chỉ 1: Số 28A Ngõ 162 Khương Đình - Thanh Xuân - Hà Nội </span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-2">Địa chỉ 2: 62A Đà Sơn, Hoà Khánh Nam, Liên Chiểu, Tp. Đà Nẵng</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-3">CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-106-2">Mã số thuế: 0109379379</span> </li>
+                            <li><span>CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA</span></li>
+                            <li><span>Số 15A Ngõ 21/13 Lĩnh Nam - Hoàng Mai - Hà Nội</span></li>
+                            <li><span>Mã số thuế: 0109379379</span> </li>
                             <li><a href="tel:+840988508769" title="Số điện thoại">Hotline: {{$config->phone}}</a></li>
                             <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
                             <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->zalo}}" title="Zalo" >{{$config->zalo}}</a></li>
