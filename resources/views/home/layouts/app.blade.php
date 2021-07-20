@@ -114,13 +114,13 @@
         <div id="language-content" class="dropdown-content">
             <ul class="language-picker__list">
                 <li>
-                    <a href="/en" title="@lang('English')">
+                    <a style="color: white" href="/en" title="@lang('English')">
                         <img class="img-fluid" @src="/images/home/flag_en.png" alt="@lang('English')">
                         <span>@lang('English')</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/vi" title="@lang('Vietnamese')">
+                    <a style="color: white" href="/vi" title="@lang('Vietnamese')">
                         <img class="img-fluid" @src="/images/home/flag_vi.png" alt="@lang('Vietnamese')">
                         <span>@lang('Vietnamese')</span>
                     </a>
