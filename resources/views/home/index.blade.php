@@ -91,19 +91,19 @@
 <script>
     Swal.fire({
         width: 'auto',
-  title: '<strong>Nhu cầu của bạn</u></strong>',
-  icon: 'info',
+  title: '<strong>Nhu cầu của bạn?</u></strong>',
+
   html:
     `<div style='float:left; width: 50%'>
         <div>
-            <img style='width: 150px; height: 150px;' src='/images/home/fb_icon_325x325.png'>
+            <img style='width: 100px; height: 100px;' src='/images/home/fb_icon_325x325.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-group-facebook'> Tôi muốn: Mua group Facebook</a>
         <a class='popup-btn' href='https://shopgroup.vn/chuyen-nhuong-lai-group-facebook'> Tôi muốn: Bán group Facebook</a>
     </div>
     <div style='float:left; width: 50%'>
         <div>
-            <img style='width: 150px; height: 150px; border-radius: 6px' src='/images/home/share_img.png'>
+            <img style='width: 100px; height: 100px; border-radius: 6px' src='/images/home/share_img.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-kenh-tiktok'> Tôi muốn: Mua kênh TikTok</a>
         <a class='popup-btn' href='https://shopgroup.vn/chuyen-nhuong-lai-kenh-tiktok'> Tôi muốn: Bán kênh tiktok</a>

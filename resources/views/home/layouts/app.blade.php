@@ -71,7 +71,6 @@
         <nav class="site-nav">
             <ul class="my-menu">
                 <li class="my-item"><a href="/@lang('about-us')" class="navigation__link">@lang('About Us')</a></li>
-                <li class="my-item"> <a href="/@lang('about-us')" class="navigation__link">@lang('About Us')</a></li>
                 <li class="my-item">
                     <a href="#">Dịch vụ Facebook</a>
                     <ul class="sub-menu">
@@ -96,7 +95,10 @@
                         <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li>
                     </ul>
                 </li>
-                <li class="my-item"><a href="#">Contact Us</a></li>
+                <li class="my-item"> <a href="/@lang('news')" class="navigation__link" >@lang('News')</a> </li>
+                <li class="my-item"> <a href="/@lang('contact')" class="navigation__link">@lang('Contact')</a></li>
+                <li class="my-item"><a href="#"> <a href="/thong-tin-thanh-toan" class="navigation__link">Thông tin thanh toán</a></a></li>
+
             </ul>
           </nav>
     </div>
@@ -239,34 +241,37 @@
                             <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-2">Địa chỉ 2: 62A Đà Sơn, Hoà Khánh Nam, Liên Chiểu, Tp. Đà Nẵng</span></li>
                             <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-3">CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA</span></li>
                             <li><span data-cms="{{app()->getLocale()}}-layouts-app-106-2">Mã số thuế: 0109379379</span> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-5 col-lg-3">
-                    <div class="footer-content">
-                        <h3 class="title" >@lang('Contact')</h3>
-                        <ul class="footer-list">
                             <li><a href="tel:+840988508769" title="Số điện thoại">Hotline: {{$config->phone}}</a></li>
                             <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
                             <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->zalo}}" title="Zalo" >{{$config->zalo}}</a></li>
                         </ul>
                     </div>
                 </div>
-                {{-- <div class="col-12 col-md-3 col-lg-2">
-                    <div class="footer-content">
-                        <h3 class="title">@lang('About')</h3>
-                        <ul class="footer-list">
-                            <li><a href="/@lang('about-us')" title="@lang('About us')">@lang('About Us')</a></li>
-                            <li><a href="/@lang('news')" title="@lang('News')">@lang('News')</a></li>
-                        </ul>
-                    </div>
-                </div> --}}
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="footer-content">
-                        <h3 class="title">@lang('Services')</h3>
+                        <h3 class="title">Facebook</h3>
                         <ul class="footer-list">
-                            <li><a href="/@lang('channels')" title="@lang('Channels')">@lang('Channels')</a></li>
-                            <li><a href="/@lang('buy-channels')" title="@lang('Buy-Channels')">@lang('Buy-Channels')</a></li>
+                            <li class="sub-item">
+                                <a href="/mua-group-facebook">Bán Group Facebook</a>
+                             </li>
+                             <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li>
+                             <li class="sub-item"> <a href="/mua-group-facebook"> Bán Fanpage Facebook </a></li>
+                             <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li>
+                             <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
+                             <li class="sub-item"> <a href="/tin-tuc/Thu mua lại FanPage"> Thu mua lại FanPage </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-3">
+                    <div class="footer-content">
+                        <h3 class="title" >Tiktok</h3>
+                        <ul class="footer-list">
+                            <li class="sub-item">
+                                <a href="/mua-kenh-tiktok">Bán tài khoản Tiktok</a>
+                             </li>
+                             <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
+                             <li class="sub-item"> <a href="/tang-like-tiktok"> Tăng Like Tiktok </a></li>
+                             <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li>
                         </ul>
                     </div>
                 </div>
