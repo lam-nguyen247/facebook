@@ -88,6 +88,7 @@
                                 <th>{{$values[0][4]}}</th>
                                 <th>{{$values[0][5]}}</th>
                                 <th>{{$values[0][6]}}</th>
+                                <th>{{$values[0][7]}}</th>
                             </tr>
                         </thead>
 
@@ -120,6 +121,8 @@
                                     </td>
                                     <td>
                                         {{$values[$i][6]}}
+                                    </td>\<td>
+                                        {{$values[$i][7]}}
                                     </td>
                                 </tr>
                             @endfor
