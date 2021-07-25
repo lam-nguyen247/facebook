@@ -25,7 +25,7 @@ class ChannelController extends Controller
         $values = [];
 
         foreach($arr as $key=>$item){
-            if($key == 1){
+            if($key == 0){
                 $values[] = $item;
                 continue;
             }
@@ -53,7 +53,6 @@ class ChannelController extends Controller
             }
             $values[] = $item;
         }
-        dd($values);
         $page = Page::find(13);
         $seo = $page->seo;
         return view('home.channel.index', compact("values", 'page', 'seo'));
