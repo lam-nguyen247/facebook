@@ -98,7 +98,7 @@
                                     <td>
                                         {{$values[$i][0]}}
                                     </td>
-                                    <td>{{number_format($values[$i][1], 0, ',', '.')}}</td>
+                                    <td>{{number_format((int)$values[$i][1], 0, ',', '.')}}</td>
 
                                     <td>
                                         {{$values[$i][2]}}
