@@ -77,7 +77,7 @@
                         </div>
                     </form>
                 </div>
-                <div style="order: 2 !important; overflow-x: auto; padding: 0px !important" class="col-12 col-md-12 col-lg-12">
+                <div style="order: 2 !important; overflow-x: auto; padding: 10px !important" class="col-12 col-md-12 col-lg-12">
                     <table id="customers" style="margin-top: 10px;">
                         <thead>
                             <tr>
@@ -129,7 +129,7 @@
                             @endfor
                         </tbody>
                     </table>
-                    <h3 style="text-align: center; font-weight: bold">Còn nhiều Group khác.. Vui lòng liên hệ Hotline/Zalo: 0988 508 769 để được tư vấn thêm</h3>
+                    <h3 style="text-align: center; font-weight: bold;">Còn nhiều Group khác.. Vui lòng liên hệ Hotline/Zalo: 0988 508 769 để được tư vấn thêm</h3>
                 </div>
                 <div class="col-12" style="order: 3 !important;">
                     <div class="container">
