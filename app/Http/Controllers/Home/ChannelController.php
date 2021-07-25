@@ -29,8 +29,8 @@ class ChannelController extends Controller
                 $values[] = $item;
                 continue;
             }
-            // $item[1] = (int)str_replace('.', '', $item[1]);
-            // $item[6] = (int)str_replace('.', '', $item[6]);
+            $item[1] = (int)str_replace('.', '', $item[1]);
+            $item[6] = (int)str_replace('.', '', $item[6]);
             if(!empty($request->sub_f)){
                 if($item[1] < $request->sub_f){
                     continue;
@@ -123,8 +123,8 @@ class ChannelController extends Controller
                 $values[] = $item;
                 continue;
             }
-            // $item[1] = (int)str_replace('.', '', $item[1]);
-            // $item[5] = (int)str_replace('.', '', $item[5]);
+            $item[1] = (int)str_replace('.', '', $item[1]);
+            $item[5] = (int)str_replace('.', '', $item[5]);
             if(!empty($request->sub_f)){
                 if($item[1] < $request->sub_f){
                     continue;
