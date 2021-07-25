@@ -125,6 +125,7 @@
                             @endfor
                         </tbody>
                     </table>
+                    <h3 style="text-align: center">Còn nhiều Group khác.. Vui lòng liên hệ Hotline/Zalo: 0988 508 769 để được tư vấn thêm</h3>
                 </div>
                 <div class="col-12" style="order: 3 !important;">
                     <div class="container">
@@ -191,7 +192,7 @@
         $('#customers').DataTable({
             'pageLength': 25,
             'responsive': true,
-            "order": [[ 0, "desc" ]],
+            "order": [[ 0, "asc" ]],
             "language": {
                 "sProcessing":    "Đang tìm kiếm...",
                 "sLengthMenu":    "Hiển thị _MENU_ kênh",
