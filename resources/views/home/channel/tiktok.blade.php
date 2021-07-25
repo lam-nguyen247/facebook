@@ -87,6 +87,7 @@
                                 <th>{{$values[0][3]}}</th>
                                 <th>{{$values[0][4]}}</th>
                                 <th>{{$values[0][5]}}</th>
+                                <th>{{$values[0][6]}}</th>
                             </tr>
                         </thead>
 
@@ -94,29 +95,31 @@
                             @for ($i = 1; $i < count($values)-1; $i++)
                                 <tr>
                                     <td>{{$values[$i][0]}}</td>
-
                                     <td>
                                         {{$values[$i][1]}}
                                     </td>
                                     <td>
-                                        <input value="{{$values[$i][2]}}" type="text" style="display: none;" id="link_{{$i}}"/>
-                                        <button onclick="xemKenh('{{$values[$i][2]}}')" title="{{$values[$i][2]}}" alt="{{$values[$i][2]}}" target="_blank" style="background-color: #2196F3; border: 1px solid #2196F3;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+                                        {{$values[$i][3]}}
+                                    </td>
+                                    <td>
+                                        <input value="{{$values[$i][3]}}" type="text" style="display: none;" id="link_{{$i}}"/>
+                                        <button onclick="xemKenh('{{$values[$i][3]}}')" title="{{$values[$i][3]}}" alt="{{$values[$i][3]}}" target="_blank" style="background-color: #2196F3; border: 1px solid #2196F3;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                         0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; margin: 5px; min-width: 61px;" onclick="copy('link_{{$i}}')">Xem kênh</button>
                                         <button style="background-color: #8CE78C; border: 1px solid #8CE78C; margin: 5px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                         0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; min-width: 61px;" onclick="copy('link_{{$i}}')">Sao chép</button>
                                         </td>
 
                                     <td>
-                                        {{$values[$i][3]}}
+                                        {{$values[$i][4]}}
                                     </td>
-                                    <td>{{number_format($values[$i][4], 0, ',', '.')}} <br/>
+                                    <td>{{number_format($values[$i][5], 0, ',', '.')}} <br/>
 
                                         <button onclick="go()" style="background-color: #E1CE69; border: 1px solid #E1CE69;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                         0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;">Đặt mua</button>
 
                                     </td>
                                     <td>
-                                        {{$values[$i][5]}}
+                                        {{$values[$i][6]}}
                                     </td>
                                 </tr>
                             @endfor
@@ -188,7 +191,7 @@
         $('#customers').DataTable({
             'pageLength': 25,
             'responsive': true,
-            'ordering': false,
+            "order": [[ 0, "desc" ]],
             "language": {
                 "sProcessing":    "Đang tìm kiếm...",
                 "sLengthMenu":    "Hiển thị _MENU_ kênh",
