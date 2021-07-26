@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="google-site-verification" content="XrscSqm4bh48Nw0IZhyH-JO52qXBf45BcSy5xigkL2Y" />
     <meta property="og:image" content="@yield('cover', '/images/home/logo-white.png')"/>
+    <meta property="og:image:alt" content="@yield('cover', '/images/home/logo-white.png')"/>
     <meta name="twitter:image" content="@yield('cover', '/images/home/logo-white.png')"/>
     @isset($seo)
         <title>{{$seo->title}}</title>
         <meta name="description" content="{{$seo->description}}">
+        <meta property="og:title" content="{{$seo->description}}">
+        <meta property="og:description" content="{{$seo->description}}">
         <meta name="robots" content="{{$seo->robots}}" />
     @else
         <title>@yield('title') </title>
+        <meta property="og:title" content="@yield('title')">
+        <meta property="og:description" content="@yield('description')">
         <meta name="description" content="@yield('description') ">
     @endif
     @cms
