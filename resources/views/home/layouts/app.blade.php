@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="google-site-verification" content="XrscSqm4bh48Nw0IZhyH-JO52qXBf45BcSy5xigkL2Y" />
-    <meta property="og:image" content="@yield('cover')"/>
-    <meta name="twitter:image" content="@yield('cover')"/>
+    <meta property="og:image" content="{{empty(@yield('cover'))?'/images/home/logo-white.png':@yield('cover')}}"/>
+    <meta name="twitter:image" content="{{empty(@yield('cover'))?'/images/home/logo-white.png':@yield('cover')}}"/>
     @isset($seo)
         <title>{{$seo->title}}</title>
         <meta name="description" content="{{$seo->description}}">

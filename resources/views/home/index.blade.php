@@ -66,10 +66,10 @@
                 <h3 class="title" data-cms="{{app()->getLocale()}}-index-24">Tại sao nên sở hữu một Group Facebook</h3>
                 <div class="sapo" style="max-width:740px">
                     <p style="text-align: left" data-cms="{{app()->getLocale()}}-index-26">
-                        Youtube tạo nên thương hiệu cho Sản Phẩm, Doanh Nghiệm của bạn.
-                        Youtube đem lại doanh thu với tính năng kiếm tiền trên Youtube.
-                        Đưa Sản Phẩm, Doanh Nghiệp của bạn đến với khách hàng mà không tốn phí.
-                        Giúp khách hàng đánh giá, nhìn nhận đúng và rõ hơn về Sản Phẩm, Doanh Nghiệp
+                        ► Group Facebook giúp nâng tầm thương hiệu Sản Phẩm, Doanh Nghiệp của bạn.
+                        ► Đưa Sản Phẩm của bạn đến với khách hàng một cách tự nhiên mà không tốn phí.
+                        ► Group Facebook đem lại doanh thu cho bạn từ những đối tác quảng cáo SP.
+                        ► Group Facebook sức mạnh khủng khiếp đến từ cộng đồng!
                     </p>
                     <div class="btn-normal" style="margin-top: 10px;">
                         <a style="background: #4F4F4F; border-radius: 24px;" href="/@lang('channels')" title="Get to know us">
