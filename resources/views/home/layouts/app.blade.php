@@ -9,6 +9,7 @@
     <meta property="og:image:alt" content="@yield('cover', '/images/home/logo-white.png')"/>
     <meta name="twitter:image" content="@yield('cover', '/images/home/logo-white.png')"/>
     <meta property="og:url" content=" {{  Request::url() }} "/>
+    <meta property="og:type" content=" {{  Request::url() }} "/>
     @isset($seo)
         <title>{{$seo->title}}</title>
         <meta name="description" content="{{$seo->description}}">
