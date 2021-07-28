@@ -84,9 +84,9 @@
                         <li class="sub-item">
                            <a href="/mua-group-facebook">Bán Group Facebook</a>
                         </li>
-                        <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li>
+                        {{-- <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li> --}}
                         <li class="sub-item"> <a href="/mua-group-facebook"> Bán Fanpage Facebook </a></li>
-                        <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li>
+                        {{-- <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li> --}}
                         <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
                         <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-fanpage"> Thu mua lại FanPage </a></li>
                     </ul>
@@ -97,9 +97,12 @@
                         <li class="sub-item">
                            <a href="/mua-kenh-tiktok">Bán tài khoản Tiktok</a>
                         </li>
-                        <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
+                        <li class="sub-item">
+                            <a href="/chuyen-nhuong-lai-kenh-tiktok">Thu mua tài khoản Tiktok</a>
+                         </li>
+                        {{-- <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
                         <li class="sub-item"> <a href="/tin-tuc/tang-like-tiktok"> Tăng Like Tiktok </a></li>
-                        <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li>
+                        <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li> --}}
                     </ul>
                 </li>
                 <li class="my-item"> <a href="/@lang('news')" class="navigation__link" >@lang('News')</a> </li>
@@ -168,9 +171,9 @@
                                         <li class="sub-item">
                                            <a href="/mua-group-facebook">Bán Group Facebook</a>
                                         </li>
-                                        <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li>
+                                        {{-- <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li> --}}
                                         <li class="sub-item"> <a href="/mua-group-facebook"> Bán Fanpage Facebook </a></li>
-                                        <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li>
+                                        {{-- <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li> --}}
                                         <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
                                         <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-fanpage"> Thu mua lại FanPage </a></li>
                                     </ul>
@@ -181,9 +184,12 @@
                                         <li class="sub-item">
                                            <a href="/mua-kenh-tiktok">Bán tài khoản Tiktok</a>
                                         </li>
-                                        <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
+                                        <li class="sub-item">
+                                            <a href="/chuyen-nhuong-lai-kenh-tiktok">Thu mua tài khoản Tiktok</a>
+                                         </li>
+                                        {{-- <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
                                         <li class="sub-item"> <a href="/tin-tuc/tang-like-tiktok"> Tăng Like Tiktok </a></li>
-                                        <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li>
+                                        <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li> --}}
                                     </ul>
                                 </li>
                                 <li class="navigation__item">
