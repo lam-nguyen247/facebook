@@ -87,8 +87,8 @@
                         {{-- <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li> --}}
                         <li class="sub-item"> <a href="/mua-group-facebook"> Bán Fanpage Facebook </a></li>
                         {{-- <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li> --}}
-                        <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
-                        <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-fanpage"> Thu mua lại FanPage </a></li>
+                        {{-- <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
+                        <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-fanpage"> Thu mua lại FanPage </a></li> --}}
                     </ul>
                 </li class="my-item">
                 <li class="my-item">
@@ -174,8 +174,8 @@
                                         {{-- <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li> --}}
                                         <li class="sub-item"> <a href="/mua-group-facebook"> Bán Fanpage Facebook </a></li>
                                         {{-- <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li> --}}
-                                        <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
-                                        <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-fanpage"> Thu mua lại FanPage </a></li>
+                                        {{-- <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
+                                        <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-fanpage"> Thu mua lại FanPage </a></li> --}}
                                     </ul>
                                 </li>
                                 <li class="navigation__item">
@@ -277,8 +277,8 @@
                              {{-- <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li> --}}
                              <li class="sub-item"> <a href="/mua-group-facebook"> Bán Fanpage Facebook </a></li>
                              {{-- <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li> --}}
-                             <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
-                             <li class="sub-item"> <a href="/tin-tuc/Thu mua lại FanPage"> Thu mua lại FanPage </a></li>
+                             {{-- <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
+                             <li class="sub-item"> <a href="/tin-tuc/Thu mua lại FanPage"> Thu mua lại FanPage </a></li> --}}
                         </ul>
                     </div>
                 </div>

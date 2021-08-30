@@ -99,14 +99,12 @@
             <img style='width: 100px; height: 100px;' src='/images/home/fb_icon_325x325.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-group-facebook'> Tôi muốn: Mua group Facebook</a>
-        <a class='popup-btn' href='https://shopgroup.vn/chuyen-nhuong-lai-group-facebook'> Tôi muốn: Bán group Facebook</a>
     </div>
     <div style='float:left; width: 50%'>
         <div>
             <img style='width: 100px; height: 100px; border-radius: 6px' src='/images/home/share_img.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-kenh-tiktok'> Tôi muốn: Mua kênh TikTok</a>
-        <a class='popup-btn' href='https://shopgroup.vn/chuyen-nhuong-lai-kenh-tiktok'> Tôi muốn: Bán kênh tiktok</a>
     </div>
     `,
   showCloseButton: true,
