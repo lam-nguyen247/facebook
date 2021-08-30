@@ -97,9 +97,9 @@
                         <li class="sub-item">
                            <a href="/mua-kenh-tiktok">Bán tài khoản Tiktok</a>
                         </li>
-                        <li class="sub-item">
+                        {{-- <li class="sub-item">
                             <a href="/chuyen-nhuong-lai-kenh-tiktok">Thu mua tài khoản Tiktok</a>
-                         </li>
+                         </li> --}}
                         {{-- <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
                         <li class="sub-item"> <a href="/tin-tuc/tang-like-tiktok"> Tăng Like Tiktok </a></li>
                         <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li> --}}
@@ -184,9 +184,9 @@
                                         <li class="sub-item">
                                            <a href="/mua-kenh-tiktok">Bán tài khoản Tiktok</a>
                                         </li>
-                                        <li class="sub-item">
+                                        {{-- <li class="sub-item">
                                             <a href="/chuyen-nhuong-lai-kenh-tiktok">Thu mua tài khoản Tiktok</a>
-                                         </li>
+                                         </li> --}}
                                         {{-- <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
                                         <li class="sub-item"> <a href="/tin-tuc/tang-like-tiktok"> Tăng Like Tiktok </a></li>
                                         <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li> --}}
@@ -289,9 +289,9 @@
                             <li class="sub-item">
                                 <a href="/mua-kenh-tiktok">Bán tài khoản Tiktok</a>
                              </li>
-                             <li class="sub-item">
+                             {{-- <li class="sub-item">
                                 <a href="/chuyen-nhuong-lai-kenh-tiktok">Thu mua tài khoản Tiktok</a>
-                             </li>
+                             </li> --}}
                              {{-- <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
                              <li class="sub-item"> <a href="/tang-like-tiktok"> Tăng Like Tiktok </a></li>
                              <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li> --}}
