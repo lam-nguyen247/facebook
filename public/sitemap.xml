@@ -6,57 +6,77 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://shopgroup.vn/</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
+  <lastmod>2021-08-30T04:57:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://shopgroup.vn/gioi-thieu-chung</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
+  <lastmod>2021-08-30T04:57:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shopgroup.vn/mua-group-facebook</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
+  <lastmod>2021-08-30T04:57:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://shopgroup.vn/tin-tuc/tang-view-tiktok</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
+  <loc>https://shopgroup.vn/mua-kenh-tiktok</loc>
+  <lastmod>2021-08-30T04:57:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shopgroup.vn/tin-tuc</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
+  <lastmod>2021-08-30T04:57:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shopgroup.vn/lien-he</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
+  <lastmod>2021-08-30T04:57:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shopgroup.vn/thong-tin-thanh-toan</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
+  <lastmod>2021-08-30T04:57:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+<url>
+  <loc>https://shopgroup.info/</loc>
+  <lastmod>2021-08-30T04:55:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://shopgroup.info/gioi-thieu-chung</loc>
+  <lastmod>2021-08-30T04:55:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://shopgroup.vn/tin-tuc/tang-member-group-thanh-vien-nhom-tang-like-theo-doi-fanpage</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://shopgroup.info/mua-group-facebook</loc>
+  <lastmod>2021-08-30T04:55:17+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://shopgroup.vn/tin-tuc/kinh-nghiem-mua-group-facebook-de-khong-bi-lua-dao-scam</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://shopgroup.info/mua-kenh-tiktok</loc>
+  <lastmod>2021-08-30T04:55:17+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://shopgroup.vn/tin-tuc/loi-ich-cua-group-facebook-nhung-luu-y-khi-mua-nhom-group-facebook</loc>
-  <lastmod>2021-07-26T13:24:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://shopgroup.info/tin-tuc</loc>
+  <lastmod>2021-08-30T04:55:17+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://shopgroup.info/lien-he</loc>
+  <lastmod>2021-08-30T04:55:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shopgroup.info/thong-tin-thanh-toan</loc>
+  <lastmod>2021-08-30T04:55:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
