@@ -112,19 +112,19 @@ class ChannelController extends Controller
 		$client = $this->getGoogleClient();
 		$service = new Google_Service_Sheets($client);
 		$spreadsheetId = '1VT8A6swg0XoKOHtEHpv07zHKIibd7SyzZ5MPB9XmAMs';
-		$range = 'Tiktok!A2:G';
+		$range = 'Tiktok!A2:H';
 
 		// get values
 		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
 		$arr = $response->getValues();
         $values = [];
         foreach($arr as $key=>$item){
-            if($key == 0 || !isset($item[5])){
+            if($key == 0 || !isset($item[6])){
                 $values[] = $item;
                 continue;
             }
             $item[1] = (int)str_replace('.', '', $item[1]);
-            $item[5] = (int)str_replace('.', '', $item[5]);
+            $item[6] = (int)str_replace('.', '', $item[6]);
             if(!empty($request->sub_f)){
                 if($item[1] < $request->sub_f){
                     continue;
@@ -136,12 +136,12 @@ class ChannelController extends Controller
                 }
             }
             if(!empty($request->price_f)){
-                if($item[5] < $request->price_f){
+                if($item[6] < $request->price_f){
                     continue;
                 }
             }
             if(!empty($request->price_t)){
-                if($item[5] > $request->price_t){
+                if($item[6] > $request->price_t){
                     continue;
                 }
             }
