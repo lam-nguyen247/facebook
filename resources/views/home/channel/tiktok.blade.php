@@ -86,8 +86,8 @@
                                 <th>{{$values[0][2]}}</th>
                                 <th style="display: none">{{$values[0][3]}}</th>
                                 <th>{{$values[0][5]}}</th>
-                                <th>{{$values[0][4]}}</th>
                                 <th>{{$values[0][7]}}</th>
+                                <th>{{$values[0][4]}}</th>
                                 <th>{{$values[0][6]}}</th>
                             </tr>
                         </thead>
