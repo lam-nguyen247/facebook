@@ -84,10 +84,11 @@
                                 <th>{{$values[0][0]}}</th>
                                 <th>{{$values[0][1]}}</th>
                                 <th>{{$values[0][2]}}</th>
-                                <th>{{$values[0][3]}}</th>
+                                <th style="display: none">{{$values[0][3]}}</th>
                                 <th>{{$values[0][4]}}</th>
                                 <th>{{$values[0][5]}}</th>
                                 <th>{{$values[0][6]}}</th>
+                                <th>{{$values[0][7]}}</th>
                             </tr>
                         </thead>
 
@@ -98,7 +99,7 @@
                                     <td>
                                         {{number_format($values[$i][1], 0, ',', '.')}}
                                     </td>
-                                    <td>
+                                    <td style="display: none">
                                         {{$values[$i][3]}}
                                     </td>
                                     <td>
