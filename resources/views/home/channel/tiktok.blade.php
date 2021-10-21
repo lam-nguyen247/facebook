@@ -119,7 +119,7 @@
 
                                     </td>
                                     <td>
-                                        {{$values[$i][7]}}
+                                        {{isset($values[$i][7])?$values[$i][7]:''}}
                                     </td>
                                     <td>
                                         {{$values[$i][6]}}
