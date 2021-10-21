@@ -147,7 +147,6 @@ class ChannelController extends Controller
             }
             $values[] = $item;
         }
-        dd($values);
         $page = Page::find(15);
         $seo = $page->seo;
         return view('home.channel.tiktok', compact("values", 'page', 'seo'));
