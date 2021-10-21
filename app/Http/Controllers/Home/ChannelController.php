@@ -112,19 +112,19 @@ class ChannelController extends Controller
 		$client = $this->getGoogleClient();
 		$service = new Google_Service_Sheets($client);
 		$spreadsheetId = '1VT8A6swg0XoKOHtEHpv07zHKIibd7SyzZ5MPB9XmAMs';
-		$range = 'Tiktok!A2:H';
+		$range = 'Tiktok!A2:K';
 
 		// get values
 		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
 		$arr = $response->getValues();
         $values = [];
         foreach($arr as $key=>$item){
-            if($key == 0 || !isset($item[6])){
+            if($key == 0 || !isset($item[5])){
                 $values[] = $item;
                 continue;
             }
             $item[1] = (int)str_replace('.', '', $item[1]);
-            $item[6] = (int)str_replace('.', '', $item[6]);
+            $item[5] = (int)str_replace('.', '', $item[5]);
             if(!empty($request->sub_f)){
                 if($item[1] < $request->sub_f){
                     continue;
@@ -136,18 +136,17 @@ class ChannelController extends Controller
                 }
             }
             if(!empty($request->price_f)){
-                if($item[6] < $request->price_f){
+                if($item[5] < $request->price_f){
                     continue;
                 }
             }
             if(!empty($request->price_t)){
-                if($item[6] > $request->price_t){
+                if($item[5] > $request->price_t){
                     continue;
                 }
             }
             $values[] = $item;
         }
-        dd($values);
         $page = Page::find(15);
         $seo = $page->seo;
         return view('home.channel.tiktok', compact("values", 'page', 'seo'));
