@@ -27,6 +27,7 @@
     @media only screen and (max-width: 600px) {
         .popup-btn {
             font-size: 13px;
+            min-height: 32px;
         }
         .swal2-container .swal2-popup{
             min-width: 100% ;
