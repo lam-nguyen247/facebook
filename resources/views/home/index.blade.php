@@ -21,6 +21,11 @@
         margin: 10px;
         color: white
     }
+    .myimg{
+        width: 100px;
+        height: 100px;
+        border-radius: 6px;
+    }
     .swal2-container .swal2-popup{
         min-width: 825px ;
     }
@@ -34,6 +39,10 @@
         }
         .mybox{
             width: 100%;
+        }
+        .myimg{
+            width: 80px;
+            height: 80px;
         }
     }
 </style>
@@ -105,19 +114,19 @@
   html:
     `<div class='mybox'>
         <div>
-            <img style='width: 100px; height: 100px;' src='/images/home/fb_icon_325x325.png'>
+            <img class='myimg' src='/images/home/fb_icon_325x325.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-group-facebook'> Tôi muốn: Mua group Facebook</a>
     </div>
     <div class='mybox'>
         <div>
-            <img style='width: 100px; height: 100px; border-radius: 6px' src='/images/home/fb_icon_325x325.png'>
+            <img class='myimg' src='/images/home/fb_icon_325x325.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-fanpage-facebook'> Tôi muốn: Mua fanpage Facebook</a>
     </div>
     <div class='mybox'>
         <div>
-            <img style='width: 100px; height: 100px; border-radius: 6px' src='/images/home/share_img.png'>
+            <img class='myimg' src='/images/home/share_img.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-kenh-tiktok'> Tôi muốn: Mua kênh TikTok</a>
     </div>
