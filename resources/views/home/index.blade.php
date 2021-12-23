@@ -5,6 +5,10 @@
 @section('css')
 
 <style>
+    .mybox{
+        display: inline-block;
+        width: 33%;
+    }
     .popup-btn {
         padding: 7px 19px;
         border-radius: 2px;
@@ -12,6 +16,7 @@
         font-size: 20px;
         border: 1px solid #2196F3;
         display: block;
+        min-height: 64px;
         text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
         margin: 10px;
         color: white
@@ -25,6 +30,9 @@
         }
         .swal2-container .swal2-popup{
             min-width: 100% ;
+        }
+        .mybox{
+            width: 100%;
         }
     }
 </style>
@@ -94,19 +102,19 @@
   title: '<strong>Nhu cầu của bạn?</u></strong>',
 
   html:
-    `<div style='float:left; width: 33%'>
+    `<div class='mybox'>
         <div>
             <img style='width: 100px; height: 100px;' src='/images/home/fb_icon_325x325.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-group-facebook'> Tôi muốn: Mua group Facebook</a>
     </div>
-    <div style='float:left; width: 33%'>
+    <div class='mybox'>
         <div>
             <img style='width: 100px; height: 100px; border-radius: 6px' src='/images/home/fb_icon_325x325.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-fanpage-facebook'> Tôi muốn: Mua fanpage Facebook</a>
     </div>
-    <div style='float:left; width: 33%'>
+    <div class='mybox'>
         <div>
             <img style='width: 100px; height: 100px; border-radius: 6px' src='/images/home/share_img.png'>
         </div>
