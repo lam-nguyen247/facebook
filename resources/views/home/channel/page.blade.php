@@ -119,7 +119,9 @@
                                         0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;">Đặt mua</button>
                                     </td>
                                     <td>
+                                        <a href="{{isset($values[$i][6])?$values[$i][6]:''}}">
                                         {{isset($values[$i][6])?$values[$i][6]:''}}
+                                        </a>
                                     </td>
                                 </tr>
                             @endfor
