@@ -37,7 +37,7 @@ Route::get('{contact}', [ContactController::class, 'index'])->where('contact', '
 Route::get('{news}', [PostController::class, 'index'])->where('news', 'news|tin-tuc');
 Route::get('{news}/{post:slug}', [PostController::class, 'detail'])->where('news', 'news|tin-tuc');
 Route::get('mua-group-facebook', [ChannelController::class, 'index']);
-Route::get('mua-fanpage-facebook', [ChannelController::class, 'index']);
+Route::get('mua-fanpage-facebook', [ChannelController::class, 'fanPage']);
 Route::get('mua-kenh-tiktok', [ChannelController::class, 'tiktok']);
 Route::post('customer', [CustomerController::class, 'store']);
 Route::post('cms', [CmsController::class, 'index']);
