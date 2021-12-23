@@ -94,13 +94,19 @@
   title: '<strong>Nhu cầu của bạn?</u></strong>',
 
   html:
-    `<div style='float:left; width: 50%'>
+    `<div style='float:left; width: 33%'>
         <div>
             <img style='width: 100px; height: 100px;' src='/images/home/fb_icon_325x325.png'>
         </div>
         <a class='popup-btn' href='https://shopgroup.vn/mua-group-facebook'> Tôi muốn: Mua group Facebook</a>
     </div>
-    <div style='float:left; width: 50%'>
+    <div style='float:left; width: 33%'>
+        <div>
+            <img style='width: 100px; height: 100px; border-radius: 6px' src='/images/home/fb_icon_325x325.png'>
+        </div>
+        <a class='popup-btn' href='https://shopgroup.vn/mua-fanpage-facebook'> Tôi muốn: Mua fanpage Facebook</a>
+    </div>
+    <div style='float:left; width: 33%'>
         <div>
             <img style='width: 100px; height: 100px; border-radius: 6px' src='/images/home/share_img.png'>
         </div>
