@@ -29,14 +29,14 @@
     <div class="grid-contact" id="grid-hero">
         <div class="container">
             <div class="grid-head" style="text-align: center">
-                <h2 class="title" style="text-align: center" data-cms="{{app()->getLocale()}}-channel-index-4">Danh sách Fanpage!</h2>
+                <h2 class="title" style="text-align: center" data-cms="{{app()->getLocale()}}-channel-index-5">Danh sách Fanpage!</h2>
                 <div class="sapo">
                     <p data-cms="{{app()->getLocale()}}-channel-index-6">Vui lòng liên hệ với chúng tôi qua email hoặc hotline.</p>
                 </div>
             </div>
             <div class="row" style="background-color:white; padding: 15px">
                 <div style="order: 1 !important;" class="col-12 col-md-12 col-lg-12">
-                    <form id="ds" action="/mua-group-facebook" method="GET">
+                    <form id="ds" action="/mua-fanpage-facebook" method="GET">
                         @csrf
                         <div class="container">
                             <div class="row" style="margin-bottom: 20px;">
@@ -127,7 +127,7 @@
                             @endfor
                         </tbody>
                     </table>
-                    <h3 style="text-align: center; font-weight: bold;">Còn nhiều Group khác.. Vui lòng liên hệ Hotline/Zalo: 0988 508 769 để được tư vấn thêm</h3>
+                    <h3 style="text-align: center; font-weight: bold;">Còn nhiều Fanpage khác.. Vui lòng liên hệ Hotline/Zalo: 0988 508 769 để được tư vấn thêm</h3>
                 </div>
                 <div class="col-12" style="order: 3 !important;">
                     <div class="container">
@@ -197,11 +197,11 @@
             "order": [[ 0, "asc" ]],
             "language": {
                 "sProcessing":    "Đang tìm kiếm...",
-                "sLengthMenu":    "Hiển thị _MENU_ group",
+                "sLengthMenu":    "Hiển thị _MENU_ fanpage",
                 "sZeroRecords":   "No se encontraron resultados",
                 "sEmptyTable":    "Ningún dato disponible en esta tabla",
-                "sInfo":          "Bắt đầu từ group _START_ đến _END_ trong tổng _TOTAL_ group",
-                "sInfoEmpty":     "Không có group nào",
+                "sInfo":          "Bắt đầu từ fanpage _START_ đến _END_ trong tổng _TOTAL_ fanpage",
+                "sInfoEmpty":     "Không có fanpage nào",
                 "sInfoFiltered":  "(filtrado de un total de _MAX_ registros)",
                 "sInfoPostFix":   "",
                 "sSearch":        "Tìm kiếm:",
