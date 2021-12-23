@@ -164,14 +164,13 @@ class ChannelController extends Controller
 		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
 		$arr = $response->getValues();
         $values = [];
-        dd($arr);
         foreach($arr as $key=>$item){
             if($key == 0){
                 $values[] = $item;
                 continue;
             }
             $item[1] = (int)str_replace('.', '', $item[1]);
-            $item[5] = (int)str_replace('.', '', $item[6]);
+            $item[5] = (int)str_replace('.', '', $item[5]);
             if(!empty($request->sub_f)){
                 if($item[1] < $request->sub_f){
                     continue;
