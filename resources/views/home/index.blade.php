@@ -7,7 +7,7 @@
 <style>
     .mybox{
         display: inline-block;
-        width: 33%;
+        width: 28%;
     }
     .popup-btn {
         padding: 7px 19px;
