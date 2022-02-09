@@ -124,12 +124,6 @@
         </div>
         <a class='popup-btn' href='https://mkmedia.info/mua-fanpage-facebook'> Tôi muốn: Mua fanpage Facebook</a>
     </div>
-    <div class='mybox'>
-        <div>
-            <img class='myimg' src='/images/home/share_img.png'>
-        </div>
-        <a class='popup-btn' href='https://mkmedia.info/mua-kenh-tiktok'> Tôi muốn: Mua kênh TikTok</a>
-    </div>
     `,
   showCloseButton: true,
   confirmButtonText:
