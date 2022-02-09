@@ -10,7 +10,7 @@
 ## Information
 - Home Template: [here]()
 - Admin Template: [here](https://github.com/duongvalo/admin-template.git)
-- Domain: [ShopGroup.vn](https://shopgroup.vn)
+- Domain: [mkmedia.info](https://mkmedia.info)
 - Hosting: `158.247.210.4`
 - Database: `miraitech`
 - Rate: `0`
