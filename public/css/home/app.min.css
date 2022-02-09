@@ -1929,7 +1929,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: rgba(20, 22, 26, 0.8);
+  background: rgba(212, 182, 57, 0.8);
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -4432,7 +4432,7 @@ form .btn-normal a:hover .btn-normal__title {
 }
 
 footer {
-  background: #1F2229;
+    background:#4367B1;
 }
 
 footer .grid-head .title {
