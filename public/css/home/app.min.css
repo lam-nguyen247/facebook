@@ -1269,8 +1269,8 @@ input[type=button] {width: auto; overflow: visible;}
   --bg-primary: #2196F3;
   --bg-style-gray: #f2f2f2;
   --bg-style-gray-2: #e0e0e0;
-  --bg-hero: url(/images/1912x800-5.jpg?8546a0dc7b8b2f2b86b2308b0b9d61b9);
-  --bg-hero-mb: url(/images/714x500-2.jpg?372156c18b9607b69965db094b37b768);
+  --bg-hero: url(/images/1912x800-5.jpg?7b7847830bae069c4c9a5881e787d367);
+  --bg-hero-mb: url(/images/714x500-2.jpg?23d476b9b14277eba095fbcfd63cdf20);
 }
 
 [data-theme=dark] {
@@ -1279,8 +1279,8 @@ input[type=button] {width: auto; overflow: visible;}
   --color-white: #1F2229;
   --bg-style-gray: #1F2229;
   --bg-style-gray-2: #1F2229;
-  --bg-hero: url(/images/1912x800-4.jpg?878d4f4880d134777d9d0ca428d713d3);
-  --bg-hero-mb: url(/images/714x500-3.jpg?324df850fc25b552e427b25fe46c60a1);
+  --bg-hero: url(/images/1912x800-4.jpg?7b7847830bae069c4c9a5881e787d367);
+  --bg-hero-mb: url(/images/714x500-3.jpg?23d476b9b14277eba095fbcfd63cdf20);
 }
 
 html {
@@ -1929,7 +1929,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: rgba(20, 22, 26, 0.8);
+  background: rgba(212, 182, 57, 0.8);
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -4432,7 +4432,7 @@ form .btn-normal a:hover .btn-normal__title {
 }
 
 footer {
-  background: #1F2229;
+  background:#4367B1;
 }
 
 footer .grid-head .title {
