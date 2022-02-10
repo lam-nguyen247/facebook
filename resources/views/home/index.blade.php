@@ -1,7 +1,7 @@
 @extends('home.layouts.app')
 
-@section('title', 'mkmedia.info Đơn Vị Mua Bán Chuyển Nhượng Group Facebook Uy Tín')
-@section('description', 'Bạn đang có nhu cầu mua bán Group Facebook chất lượng? Mkmedia.info - đơn vị mua bán chuyển nhượng Group Facebook uy tín tại Việt Nam sẽ giúp bạn làm điều đó.')
+@section('title', 'ShopGroup.vn Đơn Vị Mua Bán Chuyển Nhượng Group Facebook Uy Tín')
+@section('description', 'Bạn đang có nhu cầu mua bán Group Facebook chất lượng? ShopGroup.vn - đơn vị mua bán chuyển nhượng Group Facebook uy tín tại Việt Nam sẽ giúp bạn làm điều đó.')
 @section('css')
 
 <style>
@@ -116,19 +116,19 @@
         <div>
             <img class='myimg' src='/images/home/fb_icon_325x325.png'>
         </div>
-        <a class='popup-btn' href='https://mkmedia.info/mua-group-facebook'> Tôi muốn: Mua group Facebook</a>
+        <a class='popup-btn' href='https://shopgroup.vn/mua-group-facebook'> Tôi muốn: Mua group Facebook</a>
     </div>
     <div class='mybox'>
         <div>
             <img class='myimg' src='/images/home/fb_icon_325x325.png'>
         </div>
-        <a class='popup-btn' href='https://mkmedia.info/mua-fanpage-facebook'> Tôi muốn: Mua fanpage Facebook</a>
+        <a class='popup-btn' href='https://shopgroup.vn/mua-fanpage-facebook'> Tôi muốn: Mua fanpage Facebook</a>
     </div>
     <div class='mybox'>
         <div>
             <img class='myimg' src='/images/home/share_img.png'>
         </div>
-        <a class='popup-btn' href='https://mkmedia.info/mua-kenh-tiktok'> Tôi muốn: Mua kênh TikTok</a>
+        <a class='popup-btn' href='https://shopgroup.vn/mua-kenh-tiktok'> Tôi muốn: Mua kênh TikTok</a>
     </div>
     `,
   showCloseButton: true,
