@@ -254,27 +254,47 @@
                         </ul>
                     </div>
                 </div> --}}
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-5">
                     <div class="footer-content">
-                        <h1 style="font-size: 2rem"  class="title" data-cms="{{app()->getLocale()}}-footer-info-1">Thông tin công ty</h1>
+                        <h1 style="font-size: 2rem"  class="title">Thông tin công ty</h1>
                         <ul class="footer-list">
-                            <li><span data-cms="{{app()->getLocale()}}-footer-info-1">CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-footer-info-1">Địa chỉ: Số 15A Ngõ 21/13 Lĩnh Nam - Hoàng Mai - Hà Nội</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-footer-info-1">Mã số thuế: 0109379379</span> </li>
+                            <li><span>CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA</span></li>
+                            <li><span>Địa chỉ: Số 15A Ngõ 21/13 Lĩnh Nam - Hoàng Mai - Hà Nội</span></li>
+                            <li><span>Mã số thuế: 0109379379</span> </li>
                             <li><a href="tel:+840988508769" title="Số điện thoại">Hotline: {{$config->phone}}</a></li>
                             <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
                             <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->zalo}}" title="Zalo" >{{$config->zalo}}</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="footer-content">
-                        <h3 class="title" data-cms="{{app()->getLocale()}}-footer-info-1">Facebook</h3>
+                        <h3 class="title">Facebook</h3>
                         <ul class="footer-list">
                             <li class="sub-item">
-                                <a href="/mua-group-facebook" data-cms="{{app()->getLocale()}}-footer-info-1">Bán Group Facebook</a>
+                                <a href="/mua-group-facebook">Bán Group Facebook</a>
                              </li>
+                             {{-- <li class="sub-item"> <a href="/tin-tuc/tang-thanh-vien-cho-group"> Tăng thành viên cho Group </a></li> --}}
                              <li class="sub-item"> <a href="/mua-fanpage-facebook"> Bán Fanpage Facebook </a></li>
+                             {{-- <li class="sub-item"> <a href="/tin-tuc/tang-like-cho-fanpage"> Tăng Like cho Fanpage </a></li> --}}
+                             {{-- <li class="sub-item"> <a href="/tin-tuc/thu-mua-lai-group-facebook"> Thu mua lại Group facebook </a></li>
+                             <li class="sub-item"> <a href="/tin-tuc/Thu mua lại FanPage"> Thu mua lại FanPage </a></li> --}}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-2">
+                    <div class="footer-content">
+                        <h3 class="title" >Tiktok</h3>
+                        <ul class="footer-list">
+                            <li class="sub-item">
+                                <a href="/mua-kenh-tiktok">Bán tài khoản Tiktok</a>
+                             </li>
+                             {{-- <li class="sub-item">
+                                <a href="/chuyen-nhuong-lai-kenh-tiktok">Thu mua tài khoản Tiktok</a>
+                             </li> --}}
+                             {{-- <li class="sub-item"> <a href="/tin-tuc/tang-follow-tiktok"> Tăng Follow Tiktok</a></li>
+                             <li class="sub-item"> <a href="/tang-like-tiktok"> Tăng Like Tiktok </a></li>
+                             <li class="sub-item"> <a href="/tin-tuc/tang-view-tiktok"> Tăng View Tiktok </a></li> --}}
                         </ul>
                     </div>
                 </div>
